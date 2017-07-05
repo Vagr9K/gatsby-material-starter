@@ -5,11 +5,14 @@
 </div>
 
 # Gatsby Material Starter
+
+## WARNING! You are viewing the v0 version of the starter. Check out the [`master`](https://github.com/Vagr9K/gatsby-material-starter) branch for the `v1` version based starter.
+
 A blog starter with Material design in mind for [Gatsby](https://github.com/gatsbyjs/gatsby/).
 
-![Screenshot](docs/screenshot.png)
-
 [Demo website.](https://vagr9k.github.io/gatsby-material-starter/)
+
+![Screenshot](docs/screenshot.png)
 
 ## Features
 
