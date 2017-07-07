@@ -1,24 +1,84 @@
 {
   "assetsByChunkName": {
     "commons": [
-      "commons-ecca67b11562a4b872ab.js",
-      "commons-ecca67b11562a4b872ab.js.map"
+      "commons-c9a7bcf6bc3a9be7cb0b.js",
+      "commons-c9a7bcf6bc3a9be7cb0b.js.map"
     ],
-    "page-component---src-templates-post-jsx": [
-      "page-component---src-templates-post-jsx-50192eba2df1a4e94994.js",
-      "page-component---src-templates-post-jsx-50192eba2df1a4e94994.js.map"
+    "page-component---src-templates-tag-jsx": [
+      "page-component---src-templates-tag-jsx-0f758f2ec31e666d9f6f.js",
+      "page-component---src-templates-tag-jsx-0f758f2ec31e666d9f6f.js.map"
+    ],
+    "page-component---src-templates-category-jsx": [
+      "page-component---src-templates-category-jsx-ad2e527e8d74da8cc010.js",
+      "page-component---src-templates-category-jsx-ad2e527e8d74da8cc010.js.map"
     ],
     "page-component---src-pages-index-jsx": [
-      "page-component---src-pages-index-jsx-a82c65a27a440d74ad7a.js",
-      "page-component---src-pages-index-jsx-a82c65a27a440d74ad7a.js.map"
+      "page-component---src-pages-index-jsx-a69531779bba798cc01e.js",
+      "page-component---src-pages-index-jsx-a69531779bba798cc01e.js.map"
+    ],
+    "page-component---src-templates-post-jsx": [
+      "page-component---src-templates-post-jsx-07a7603743d0832bdce5.js",
+      "page-component---src-templates-post-jsx-07a7603743d0832bdce5.js.map"
     ],
     "page-component---src-pages-about-jsx": [
-      "page-component---src-pages-about-jsx-44c707379b55997c4cc1.js",
-      "page-component---src-pages-about-jsx-44c707379b55997c4cc1.js.map"
+      "page-component---src-pages-about-jsx-7f75416843c8941b02d9.js",
+      "page-component---src-pages-about-jsx-7f75416843c8941b02d9.js.map"
     ],
     "path---tags": [
       "path---tags-586c7e095e534a3909ec.js",
       "path---tags-586c7e095e534a3909ec.js.map"
+    ],
+    "path---tags-testing": [
+      "path---tags-testing-d2fcc28b9699c32aa6a5.js",
+      "path---tags-testing-d2fcc28b9699c32aa6a5.js.map"
+    ],
+    "path---tags-test": [
+      "path---tags-test-a9b8ea64221d6cd32952.js",
+      "path---tags-test-a9b8ea64221d6cd32952.js.map"
+    ],
+    "path---tags-tagging": [
+      "path---tags-tagging-a9134b1a06ccda3bab4d.js",
+      "path---tags-tagging-a9134b1a06ccda3bab4d.js.map"
+    ],
+    "path---tags-tag": [
+      "path---tags-tag-ebb0d578b78802fc6f45.js",
+      "path---tags-tag-ebb0d578b78802fc6f45.js.map"
+    ],
+    "path---tags-stuff": [
+      "path---tags-stuff-da88483d2ec01218560f.js",
+      "path---tags-stuff-da88483d2ec01218560f.js.map"
+    ],
+    "path---tags-something": [
+      "path---tags-something-4513b5788b9efe3911de.js",
+      "path---tags-something-4513b5788b9efe3911de.js.map"
+    ],
+    "path---tags-say-hi": [
+      "path---tags-say-hi-236636620ae28b9dddf4.js",
+      "path---tags-say-hi-236636620ae28b9dddf4.js.map"
+    ],
+    "path---tags-programming": [
+      "path---tags-programming-7807fd4a45fa0a0bf786.js",
+      "path---tags-programming-7807fd4a45fa0a0bf786.js.map"
+    ],
+    "path---tags-other": [
+      "path---tags-other-1cf1b6e9632c9aee584c.js",
+      "path---tags-other-1cf1b6e9632c9aee584c.js.map"
+    ],
+    "path---tags-more-tags": [
+      "path---tags-more-tags-96fa0256266a85bcb89d.js",
+      "path---tags-more-tags-96fa0256266a85bcb89d.js.map"
+    ],
+    "path---tags-huge": [
+      "path---tags-huge-4a5d1de8ef7f8e46a9f5.js",
+      "path---tags-huge-4a5d1de8ef7f8e46a9f5.js.map"
+    ],
+    "path---tags-cheese": [
+      "path---tags-cheese-d9332b4ca890c2fdbfb8.js",
+      "path---tags-cheese-d9332b4ca890c2fdbfb8.js.map"
+    ],
+    "path---tags-another-one": [
+      "path---tags-another-one-a8d96a9908fab47623aa.js",
+      "path---tags-another-one-a8d96a9908fab47623aa.js.map"
     ],
     "path---posts-23-03-2017": [
       "path---posts-23-03-2017-5347aaf5b2929498036d.js",
@@ -56,6 +116,34 @@
       "path---index-98ee2fe7bbedb0688893.js",
       "path---index-98ee2fe7bbedb0688893.js.map"
     ],
+    "path---categories": [
+      "path---categories-586c7e095e534a3909ec.js",
+      "path---categories-586c7e095e534a3909ec.js.map"
+    ],
+    "path---categories-test-3": [
+      "path---categories-test-3-77c097215b24551895f8.js",
+      "path---categories-test-3-77c097215b24551895f8.js.map"
+    ],
+    "path---categories-tech": [
+      "path---categories-tech-5bf8193820d873a8ebf3.js",
+      "path---categories-tech-5bf8193820d873a8ebf3.js.map"
+    ],
+    "path---categories-something": [
+      "path---categories-something-c5ead2f195f4dd956790.js",
+      "path---categories-something-c5ead2f195f4dd956790.js.map"
+    ],
+    "path---categories-random": [
+      "path---categories-random-3ab503abfe59f5682ffd.js",
+      "path---categories-random-3ab503abfe59f5682ffd.js.map"
+    ],
+    "path---categories-moar": [
+      "path---categories-moar-3c157547517bdf0abf85.js",
+      "path---categories-moar-3c157547517bdf0abf85.js.map"
+    ],
+    "path---categories-another-one": [
+      "path---categories-another-one-01e99418c774562da87b.js",
+      "path---categories-another-one-01e99418c774562da87b.js.map"
+    ],
     "path---about": [
       "path---about-6722d64c5004ac4ab0cb.js",
       "path---about-6722d64c5004ac4ab0cb.js.map"
@@ -64,9 +152,13 @@
       "page-component---src-pages-tags-index-jsx-a3aac5374fe57a834831.js",
       "page-component---src-pages-tags-index-jsx-a3aac5374fe57a834831.js.map"
     ],
+    "page-component---src-pages-categories-index-jsx": [
+      "page-component---src-pages-categories-index-jsx-bd3923e979449dfa108a.js",
+      "page-component---src-pages-categories-index-jsx-bd3923e979449dfa108a.js.map"
+    ],
     "app": [
-      "app-47f88479639a3aa90da4.js",
-      "app-47f88479639a3aa90da4.js.map"
+      "app-15b7397d8a811f9ebfdb.js",
+      "app-15b7397d8a811f9ebfdb.js.map"
     ]
   }
 }
