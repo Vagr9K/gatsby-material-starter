@@ -48,6 +48,10 @@
       "path---tags-stuff-c97d1c8e07bbbea06561.js",
       "path---tags-stuff-c97d1c8e07bbbea06561.js.map"
     ],
+    "path---tags-starter": [
+      "path---tags-starter-9c961fba0760dde98801.js",
+      "path---tags-starter-9c961fba0760dde98801.js.map"
+    ],
     "path---tags-something": [
       "path---tags-something-d8deb9b2c3abe8c8078a.js",
       "path---tags-something-d8deb9b2c3abe8c8078a.js.map"
@@ -68,9 +72,17 @@
       "path---tags-more-tags-d819e51af576594a3070.js",
       "path---tags-more-tags-d819e51af576594a3070.js.map"
     ],
+    "path---tags-material": [
+      "path---tags-material-9180b984acf898b23c39.js",
+      "path---tags-material-9180b984acf898b23c39.js.map"
+    ],
     "path---tags-huge": [
       "path---tags-huge-18aa57856f30bac75fb7.js",
       "path---tags-huge-18aa57856f30bac75fb7.js.map"
+    ],
+    "path---tags-gatsby": [
+      "path---tags-gatsby-f8202f33483336627a32.js",
+      "path---tags-gatsby-f8202f33483336627a32.js.map"
     ],
     "path---tags-cheese": [
       "path---tags-cheese-b0fec5c6aa661cadedb4.js",
@@ -84,9 +96,13 @@
       "path---offline-plugin-app-shell-fallback-586c7e095e534a3909ec.js",
       "path---offline-plugin-app-shell-fallback-586c7e095e534a3909ec.js.map"
     ],
+    "path---introducing-gatsby-material-starter": [
+      "path---introducing-gatsby-material-starter-0988e9546381ca51f2c8.js",
+      "path---introducing-gatsby-material-starter-0988e9546381ca51f2c8.js.map"
+    ],
     "path---index": [
-      "path---index-cbfddbe1b899bc613386.js",
-      "path---index-cbfddbe1b899bc613386.js.map"
+      "path---index-f7e6a3473093e39dd89f.js",
+      "path---index-f7e6a3473093e39dd89f.js.map"
     ],
     "path---categories-test-3": [
       "path---categories-test-3-faeedfa4353c19c3d13c.js",
@@ -107,6 +123,10 @@
     "path---categories-moar": [
       "path---categories-moar-2fd606611867454fafce.js",
       "path---categories-moar-2fd606611867454fafce.js.map"
+    ],
+    "path---categories-gatsby": [
+      "path---categories-gatsby-23663143351961035c0c.js",
+      "path---categories-gatsby-23663143351961035c0c.js.map"
     ],
     "path---categories-another-one": [
       "path---categories-another-one-440e4e6277e21cc27ef5.js",
@@ -153,8 +173,8 @@
       "page-component---node-modules-gatsby-plugin-offline-app-shell-js-4f0dddda43ae15168f16.js.map"
     ],
     "app": [
-      "app-68992067ffa3fb01a7c1.js",
-      "app-68992067ffa3fb01a7c1.js.map"
+      "app-6ae47b412095fdc980d4.js",
+      "app-6ae47b412095fdc980d4.js.map"
     ]
   }
 }
