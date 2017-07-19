@@ -8,6 +8,7 @@ module.exports = {
   siteDescription: 'A GatsbyJS stater with Material design in mind.', // Website description used for RSS feeds/meta description tag.
   siteRss: '/rss.xml', // Path to the RSS file.
   siteFBAppID: '1825356251115265', // FB Application ID for using app insights
+  siteGATrackID: 'UA-47311644-4', // Tracking code ID for google analytics.
   disqusShortname: 'https-vagr9k-github-io-gatsby-material-starter', // Disqus shortname.
   postDefaultCategoryID: 'Tech', // Default category for posts.
   userName: 'Material User', // Username to display in the author segment.
