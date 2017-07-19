@@ -46,7 +46,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-google-analytics',
       options: {
-        trackingId: config.siteGATrackID,
+        trackingId: config.siteGATrackingID,
       },
     },
     {
