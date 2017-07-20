@@ -8,13 +8,14 @@ import './Footer.scss';
 class Footer extends Component {
   render() {
     const url = config.siteRss;
-    const { copyright } = this.props.config;
+    const { userLinks } = this.props;
+    const copyright = config.copyright;
     if (!copyright) {
       return null;
     }
     return (
       <footer className="footer">
-        <UserLinks config={config} labeled />
+        {userLinks ? <UserLinks config={config} labeled /> : null}
         <div className="notice-container">
           <h4>{copyright}</h4>
 
