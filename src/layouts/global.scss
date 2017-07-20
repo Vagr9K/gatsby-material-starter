@@ -1,5 +1,6 @@
 div .mobile-fix {
     @media (max-width: 360px - 1px) {
-        padding: 0;
+        padding-left: 0;
+        padding-right: 0;
     }
 }
