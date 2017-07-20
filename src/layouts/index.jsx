@@ -16,19 +16,19 @@ export default class MainLayout extends React.Component {
     let title = '';
     if (currentPath === ('')) {
       title = 'Home';
-    } else if (currentPath === ('tags/')) {
+    } else if (currentPath === ('tags')) {
       title = 'Tags';
-    } else if (currentPath === ('categories/')) {
+    } else if (currentPath === ('categories')) {
       title = 'Categories';
-    } else if (currentPath === ('about/')) {
+    } else if (currentPath === ('about')) {
       title = 'About';
     } else if (currentPath.includes('posts')) {
       title = 'Article';
-    } else if (currentPath.includes('tags/')) {
-      const tag = currentPath.replace('tags/', '').replace('/', '').replace('-', ' ');
+    } else if (currentPath.includes('tags')) {
+      const tag = currentPath.replace('tags', '').replace('/', '').replace('-', ' ');
       title = `Tagged in ${capitalize(tag)}`;
-    } else if (currentPath.includes('categories/')) {
-      const category = currentPath.replace('categories/', '').replace('/', '').replace('-', ' ');
+    } else if (currentPath.includes('categories')) {
+      const category = currentPath.replace('categories', '').replace('/', '').replace('-', ' ');
       title = `${capitalize(category)}`;
     }
     return title;
