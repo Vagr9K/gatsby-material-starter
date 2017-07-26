@@ -45,6 +45,7 @@ More information in the [announcement](https://www.gatsbyjs.org/blog/gatsby-firs
   * Seprate page for posts under each tag
 * Categories
   * Separate page for posts under each category
+* Suggested posts segment
 * Disqus support
   * Notifictions about new disqus comments
 * Google Analytics support
@@ -73,9 +74,12 @@ More information in the [announcement](https://www.gatsbyjs.org/blog/gatsby-firs
   * Prettier for code style
   * Remark-Lint for linting Markdown
   * write-good for linting English prose
-  * gh-pages for deploying to GitHUb pages
+  * gh-pages for deploying to GitHub pages
+  * CodeClimate configuration file and badge
 
 NOTE: Take a look at [gatsby-advanced-starter](https://github.com/Vagr9K/gatsby-advanced-starter) if you prefer building UI from scratch and/or only interested in fundamental features.
+
+You can also visit [my personal blog](vagr9k.github.io) if you want to see a fully implemented blog based on this starter.
 
 ![Article Screenshot](docs/screenshot-article.png)
 ![Mobile Screenshot](docs/screenshot-mobile.png)
