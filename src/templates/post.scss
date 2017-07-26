@@ -43,6 +43,7 @@ $phone-status-bar-height: 24px - 12px;
 
     .post {
         display: flex;
+        flex-direction: column;
         justify-content: center;
 
         .post-meta {

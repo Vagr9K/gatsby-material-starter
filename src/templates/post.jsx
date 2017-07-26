@@ -8,6 +8,7 @@ import PostTags from '../components/PostTags/PostTags';
 import PostCover from '../components/PostCover/PostCover';
 import PostInfo from '../components/PostInfo/PostInfo';
 import SocialLinks from '../components/SocialLinks/SocialLinks';
+import PostSuggestions from '../components/PostSuggestions/PostSuggestions';
 import SEO from '../components/SEO/SEO';
 import config from '../../data/SiteConfig';
 import './b16-tomorrow-dark.css';
@@ -74,8 +75,9 @@ export default class PostTemplate extends React.Component {
           <UserInfo className="md-grid md-cell md-cell--12" config={config} expanded={expanded} />
           <Disqus post={post} expanded={expanded} />
         </div>
-      </div>
 
+        <PostSuggestions postNode={postNode} />
+      </div>
     );
   }
 }
@@ -93,6 +95,12 @@ query BlogPostBySlug($slug: String!) {
       date
       category
       tags
+    }
+    fields{
+      nextTitle
+      nextSlug
+      prevTitle
+      prevSlug
     }
   }
 }
