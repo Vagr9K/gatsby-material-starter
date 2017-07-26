@@ -60,15 +60,12 @@
     "build-pl": "gatsby build --prefix-paths",
     "clean": "rm -rf public",
     "lint": "eslint --ext .js,.jsx --ignore-pattern public,static .",
-    "remark-lint": "remark content",
+    "remark-lint": "remark content/posts/",
     "gh-deploy": "npm run clean && npm run build-pl && gh-pages -d public"
   },
   "remarkConfig": {
     "plugins": [
-      "remark-preset-lint-recommended", [
-        "remark-lint-no-literal-urls",
-        false
-      ]
+      "remark-preset-lint-recommended"
     ]
   }
 }
