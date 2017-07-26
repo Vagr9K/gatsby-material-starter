@@ -34,7 +34,9 @@
     "react-helmet": "^5.1.3",
     "react-md": "^1.1.0-alpha-5",
     "react-share": "^1.15.0",
-    "react-twitter-widgets": "^1.4.0"
+    "react-twitter-widgets": "^1.4.0",
+    "remark-cli": "^4.0.0",
+    "remark-preset-lint-recommended": "^3.0.0"
   },
   "devDependencies": {
     "eslint": "^3.19.0",
@@ -58,6 +60,15 @@
     "build-pl": "gatsby build --prefix-paths",
     "clean": "rm -rf public",
     "lint": "eslint --ext .js,.jsx --ignore-pattern public,static .",
+    "remark-lint": "remark content",
     "gh-deploy": "npm run clean && npm run build-pl && gh-pages -d public"
+  },
+  "remarkConfig": {
+    "plugins": [
+      "remark-preset-lint-recommended", [
+        "remark-lint-no-literal-urls",
+        false
+      ]
+    ]
   }
 }
