@@ -22,6 +22,18 @@ $phone-status-bar-height: 24px - 12px;
     width: 100%;
     max-width: 752px;
 
+    .gatsby-resp-image-wrapper {
+        z-index: 6 !important;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    video {
+        max-width: 100%;
+    }
+
     .post-header {
         margin: 0;
         max-width: 100%;
