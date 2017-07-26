@@ -55,6 +55,11 @@ $phone-status-bar-height: 24px - 12px;
         .post-body {
             max-width: 100%;
 
+            h2 {
+                margin-top: 30px;
+                margin-bottom: 10px !important;
+            }
+
             /**
              * Based on MUICSS's Table Component
              */
