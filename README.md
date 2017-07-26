@@ -50,7 +50,6 @@ More information in the [announcement](https://www.gatsbyjs.org/blog/gatsby-firs
 * Google Analytics support
 * Responsive design
   * On mobile, Disqus is loaded only after expanding comments for better performance
-* NPM scripts for GitHub Pages deployment
 * Social features
   * Twitter tweet button
   * Facebook share/share count
@@ -69,6 +68,14 @@ More information in the [announcement](https://www.gatsbyjs.org/blog/gatsby-firs
 * Loading progress for slow networks
 * Offline support
 * Web App Manifest support
+* Development tools
+  * ESLint for linting
+  * Prettier for code style
+  * Remark-Lint for linting Markdown
+  * write-good for linting English prose
+  * gh-pages for deploying to GitHUb pages
+
+NOTE: Take a look at [gatsby-advanced-starter](https://github.com/Vagr9K/gatsby-advanced-starter) if you prefer building UI from scratch and/or only interested in fundamental features.
 
 ![Article Screenshot](docs/screenshot-article.png)
 ![Mobile Screenshot](docs/screenshot-mobile.png)
