@@ -21,6 +21,7 @@ exports.onCreateNode = ({ node, boundActionCreators, getNode }) => {
     } else {
       slug = `/${parsedFilePath.dir}/`;
     }
+    slug = _.kebabCase(slug);
     createNodeField({ node, name: 'slug', value: slug });
   }
 };
