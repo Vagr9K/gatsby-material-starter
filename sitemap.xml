@@ -1,24 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 <url> <loc>https://vagr9k.github.io/gatsby-material-starter/offline-plugin-app-shell-fallback/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://vagr9k.github.io/gatsby-material-starter/01-01-2017/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://vagr9k.github.io/gatsby-material-starter/01-02-2017/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://vagr9k.github.io/gatsby-material-starter/01-03-2017/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://vagr9k.github.io/gatsby-material-starter/Big-Sample_Test</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://vagr9k.github.io/gatsby-material-starter/02-03-2017/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://vagr9k.github.io/gatsby-material-starter/02-04-2017/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://vagr9k.github.io/gatsby-material-starter/17-03-2017/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://vagr9k.github.io/gatsby-material-starter/23-03-2017/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://vagr9k.github.io/gatsby-material-starter/Introducing-Gatsby-Material-Starter/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://vagr9k.github.io/gatsby-material-starter/bold-mage</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://vagr9k.github.io/gatsby-material-starter/the-fallen-time</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://vagr9k.github.io/gatsby-material-starter/big-test</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://vagr9k.github.io/gatsby-material-starter/the-butterfly-of-the-edge</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://vagr9k.github.io/gatsby-material-starter/birch-in-the-roses</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://vagr9k.github.io/gatsby-material-starter/introducing-gatsby-material-starter</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://vagr9k.github.io/gatsby-material-starter/random-project-4-with-super-long-title-phase-one</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://vagr9k.github.io/gatsby-material-starter/angels-of-mist</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://vagr9k.github.io/gatsby-material-starter/the-fairys-witches</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://vagr9k.github.io/gatsby-material-starter/tags/programming/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://vagr9k.github.io/gatsby-material-starter/tags/stuff/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://vagr9k.github.io/gatsby-material-starter/tags/other/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://vagr9k.github.io/gatsby-material-starter/tags/test/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://vagr9k.github.io/gatsby-material-starter/tags/something/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://vagr9k.github.io/gatsby-material-starter/tags/tagging/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://vagr9k.github.io/gatsby-material-starter/tags/cheese/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://vagr9k.github.io/gatsby-material-starter/tags/huge/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://vagr9k.github.io/gatsby-material-starter/tags/say-hi/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://vagr9k.github.io/gatsby-material-starter/tags/more-tags/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://vagr9k.github.io/gatsby-material-starter/tags/testing/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://vagr9k.github.io/gatsby-material-starter/tags/another-one/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -26,13 +24,15 @@
 <url> <loc>https://vagr9k.github.io/gatsby-material-starter/tags/gatsby/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://vagr9k.github.io/gatsby-material-starter/tags/material/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://vagr9k.github.io/gatsby-material-starter/tags/starter/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://vagr9k.github.io/gatsby-material-starter/tags/say-hi/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://vagr9k.github.io/gatsby-material-starter/tags/cheese/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://vagr9k.github.io/gatsby-material-starter/categories/tech/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://vagr9k.github.io/gatsby-material-starter/categories/another-one/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://vagr9k.github.io/gatsby-material-starter/categories/test-3/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://vagr9k.github.io/gatsby-material-starter/categories/moar/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://vagr9k.github.io/gatsby-material-starter/categories/random/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://vagr9k.github.io/gatsby-material-starter/categories/something/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://vagr9k.github.io/gatsby-material-starter/categories/gatsby/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://vagr9k.github.io/gatsby-material-starter/categories/random/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://vagr9k.github.io/gatsby-material-starter/categories/test-3/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://vagr9k.github.io/gatsby-material-starter/categories/something/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://vagr9k.github.io/gatsby-material-starter/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://vagr9k.github.io/gatsby-material-starter/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
