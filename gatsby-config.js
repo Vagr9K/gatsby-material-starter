@@ -88,8 +88,8 @@ module.exports = {
       resolve: "gatsby-plugin-feed",
       options: {
         setup(ref) {
-          const ret = ref.site.siteMetadata.rssMetadata;
-          ret.allMarkdownRemark = ref.allMarkdownRemark;
+          const ret = ref.query.site.siteMetadata.rssMetadata;
+          ret.allMarkdownRemark = ref.query.allMarkdownRemark;
           ret.generator = "GatsbyJS Material Starter";
           return ret;
         },
@@ -113,8 +113,8 @@ module.exports = {
         feeds: [
           {
             serialize(ctx) {
-              const rssMetadata = ctx.site.siteMetadata.rssMetadata;
-              return ctx.allMarkdownRemark.edges.map(edge => ({
+              const rssMetadata = ctx.query.site.siteMetadata.rssMetadata;
+              return ctx.query.allMarkdownRemark.edges.map(edge => ({
                 categories: edge.node.frontmatter.tags,
                 date: edge.node.frontmatter.date,
                 title: edge.node.frontmatter.title,
