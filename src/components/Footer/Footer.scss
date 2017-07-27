@@ -8,14 +8,40 @@
 
     .notice-container {
         display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
         align-content: center;
         align-items: center;
         margin-top: 25px;
 
-        @media (max-width: 640px - 1px) {
-            justify-content: space-around;
+        .copyright {
+            display: flex;
+            flex: 1;
+            justify-content: flex-start;
+
+            @media (max-width: 640px - 1px) {
+                justify-content: center;
+            }
+        }
+
+        .rss {
+            display: flex;
+
+            @media (max-width: 640px - 1px) {
+                display: none;
+            }
+
+            flex: 1;
+            justify-content: center;
+        }
+
+        .based-on {
+            display: flex;
+
+            @media (max-width: 640px - 1px) {
+                display: none;
+            }
+
+            flex: 1;
+            justify-content: flex-end;
         }
 
         h4 {
