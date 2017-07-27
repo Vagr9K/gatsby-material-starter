@@ -79,7 +79,7 @@ More information in the [announcement](https://www.gatsbyjs.org/blog/gatsby-firs
 
 NOTE: Take a look at [gatsby-advanced-starter](https://github.com/Vagr9K/gatsby-advanced-starter) if you prefer building UI from scratch and/or only interested in fundamental features.
 
-You can also visit [my personal blog](vagr9k.github.io) if you want to see a fully implemented blog based on this starter.
+You can also visit [my personal blog](https://vagr9k.me) if you want to see a fully implemented blog based on this starter.
 
 ![Article Screenshot](docs/screenshot-article.png)
 ![Mobile Screenshot](docs/screenshot-mobile.png)

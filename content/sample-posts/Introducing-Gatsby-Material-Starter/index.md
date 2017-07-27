@@ -16,7 +16,7 @@ Not so long ago, this project got ported to v1 version of GatsbyJS.
 
 And now, it's super exciting for me to announce the `v1.1` version of `Gatsby Material Starter`!
 
-You can also visit [my personal blog](vagr9k.github.io) if you want to see a fully implemented blog based on this starter.
+You can also visit [my personal blog](https://vagr9k.me) if you want to see a fully implemented blog based on this starter.
 
 New features are:
 
