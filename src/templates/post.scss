@@ -55,18 +55,18 @@ $phone-status-bar-height: 24px - 12px;
         .post-body {
             max-width: 100%;
 
-            h1,
-            h2,
-            h3,
-            h4,
-            h5,
-            h6 {
+            > h1,
+            > h2,
+            > h3,
+            > h4,
+            > h5,
+            > h6 {
                 margin-top: 30px;
                 margin-bottom: 10px !important;
             }
 
             li {
-                margin-top: 20px;
+                margin-top: 15px;
             }
 
             /**
