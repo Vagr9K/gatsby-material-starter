@@ -1,13 +1,13 @@
-import React, { Component } from 'react';
-import Button from 'react-md/lib/Buttons';
-import './UserLinks.scss';
+import React, { Component } from "react";
+import Button from "react-md/lib/Buttons";
+import "./UserLinks.scss";
 
 class UserLinks extends Component {
   getLinkElements() {
     const { userLinks } = this.props.config;
     const { labeled } = this.props;
     return userLinks.map(link =>
-      (<Button
+      <Button
         icon={!labeled}
         flat={labeled}
         secondary
@@ -15,8 +15,9 @@ class UserLinks extends Component {
         iconClassName={link.iconClassName}
         href={link.url}
       >
-        {labeled ? link.label : ''}
-      </Button>));
+        {labeled ? link.label : ""}
+      </Button>
+    );
   }
   render() {
     const { userLinks } = this.props.config;
@@ -25,9 +26,7 @@ class UserLinks extends Component {
     }
     return (
       <div className="user-links">
-        {
-          this.getLinkElements()
-        }
+        {this.getLinkElements()}
       </div>
     );
   }
