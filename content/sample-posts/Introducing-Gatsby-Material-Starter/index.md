@@ -31,7 +31,7 @@ New features are:
 
 Full feature list:
 
-* Blazing fast loading times thanks to prerendered HTML and automatic chunk loading of JS files
+* Blazing fast loading times thanks to pre-rendered HTML and automatic chunk loading of JS files
 * [React-MD](https://github.com/mlaursen/react-md) for Material design
   * Integrated FontAwesome support
   * Integrated Material Icons support
@@ -50,15 +50,15 @@ Full feature list:
   * Follow Me button
 * Posts in Markdown
   * Code syntax highlighting
-  * Embded YouTube videos
-  * Embded Tweets
+  * Embedded YouTube videos
+  * Embedded Tweets
 * Tags
   * Seprate page for posts under each tag
 * Categories
   * Separate page for posts under each category
 * Suggested posts segment
 * Disqus support
-  * Notifictions about new disqus comments
+  * Notifications about new disqus comments
 * Google Analytics support
 * Responsive design
   * On mobile, Disqus is loaded only after expanding comments for better performance
