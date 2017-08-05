@@ -28,10 +28,12 @@ class Disqus extends Component {
     this.setState({ toasts });
   }
   render() {
-    const { post, expanded } = this.props;
+    const { postNode, expanded } = this.props;
     if (!config.disqusShortname) {
       return null;
     }
+    const post = postNode.frontmatter;
+    const url = config.siteUrl + config.pathPrefix + postNode.fields.slug;
     return (
       <Card className="md-grid md-cell md-cell--12">
         <CardTitle
@@ -42,9 +44,9 @@ class Disqus extends Component {
         <CardText expandable={!expanded}>
           <ReactDisqusComments
             shortname={config.disqusShortname}
-            identifier={post.id}
+            identifier={post.title}
             title={post.title}
-            url={post.url}
+            url={url}
             category_id={post.category_id}
             onNewComment={this.notifyAboutComment}
           />
