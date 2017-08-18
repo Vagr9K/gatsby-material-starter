@@ -11,7 +11,7 @@ class Index extends React.Component {
       <div className="index-container">
         <Helmet>
           <title>{config.siteTitle}</title>
-          <link rel="canonical" href={`https://ai-tester.com/`} />
+          <link rel="canonical" href={`${config.siteUrl}`} />
         </Helmet>
         <SEO postEdges={postEdges} />
         <PostListing postEdges={postEdges} />

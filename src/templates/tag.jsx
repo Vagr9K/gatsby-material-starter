@@ -11,7 +11,7 @@ export default class TagTemplate extends React.Component {
       <div className="tag-container">
         <Helmet>
           <title>{`Posts tagged as "${tag}" | ${config.siteTitle}`}</title>
-          <link rel="canonical" href={`https://ai-tester.com/tags/${tag}`} />
+          <link rel="canonical" href={`${config.siteUrl}/tags/${tag}`} />
         </Helmet>
         <PostListing postEdges={postEdges} />
       </div>
@@ -19,7 +19,7 @@ export default class TagTemplate extends React.Component {
   }
 }
 
-/* eslint no-undef: "off"*/
+/* eslint no-undef: "off" */
 export const pageQuery = graphql`
   query TagPage($tag: String) {
     allMarkdownRemark(
