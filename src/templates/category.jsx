@@ -9,9 +9,10 @@ export default class CategoryTemplate extends React.Component {
     const postEdges = this.props.data.allMarkdownRemark.edges;
     return (
       <div className="category-container">
-        <Helmet
-          title={`Posts in category "${category}" | ${config.siteTitle}`}
-        />
+        <Helmet>
+          <title>{`Posts in category "${category}" | ${config.siteTitle}`}</title>
+          <link rel="canonical" href={`${config.siteUrl}/categories/${category}`} />
+        </Helmet>
         <PostListing postEdges={postEdges} />
       </div>
     );
