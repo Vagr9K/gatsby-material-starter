@@ -10,11 +10,12 @@ class Footer extends Component {
     const url = config.siteRss;
     const { userLinks } = this.props;
     const copyright = config.copyright;
+    const fixedFooter = config.fixedFooter;
     if (!copyright) {
       return null;
     }
     return (
-      <footer className="footer">
+      <footer className={fixedFooter ? "footer footer-fixed" : "footer"}>
         {userLinks ? <UserLinks config={config} labeled /> : null}
         <div className="notice-container">
           <div className="copyright">
