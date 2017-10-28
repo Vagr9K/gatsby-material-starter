@@ -4,8 +4,11 @@ const webpackLodashPlugin = require("lodash-webpack-plugin");
 
 const postNodes = [];
 
-function addSibilingNodes(boundActionCreators) {
-  const { createNodeField } = boundActionCreators;
+function addSiblingNodes(createNodeField) {
+  postNodes.sort(
+    ({ frontmatter: { date: date1 } }, { frontmatter: { date: date2 } }) =>
+      new Date(date1) - new Date(date2)
+  );
   for (let i = 0; i < postNodes.length; i += 1) {
     const nextID = i + 1 < postNodes.length ? i + 1 : 0;
     const prevID = i - 1 > 0 ? i - 1 : postNodes.length - 1;
@@ -62,8 +65,14 @@ exports.onCreateNode = ({ node, boundActionCreators, getNode }) => {
     createNodeField({ node, name: "slug", value: slug });
     postNodes.push(node);
   }
+};
 
-  addSibilingNodes(boundActionCreators);
+exports.setFieldsOnGraphQLNodeType = ({ type, boundActionCreators }) => {
+  const { name } = type;
+  const { createNodeField } = boundActionCreators;
+  if (name === "MarkdownRemark") {
+    addSiblingNodes(createNodeField);
+  }
 };
 
 exports.createPages = ({ graphql, boundActionCreators }) => {
@@ -94,7 +103,7 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
       `
       ).then(result => {
         if (result.errors) {
-          /* eslint no-console: "off"*/
+          /* eslint no-console: "off" */
           console.log(result.errors);
           reject(result.errors);
         }
