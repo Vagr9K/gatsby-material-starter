@@ -2,6 +2,7 @@ const path = require("path");
 const _ = require("lodash");
 const webpackLodashPlugin = require("lodash-webpack-plugin");
 const createPaginatedPages = require("gatsby-paginate");
+const config = require("./data/SiteConfig");
 
 const postNodes = [];
 
@@ -85,30 +86,30 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
     const categoryPage = path.resolve("src/templates/category.jsx");
     resolve(
       graphql(
-          `
-          query IndexQuery {
-            allMarkdownRemark(
-              limit: 2000
-              sort: { fields: [frontmatter___date], order: DESC }
-            ) {
-              edges {
-                node {
-                  fields {
-                    slug
-                  }
-                  excerpt
-                  timeToRead
-                  frontmatter {
-                    title
-                    tags
-                    cover
-                   date
-                  }
+        `
+        query IndexQuery {
+          allMarkdownRemark(
+            limit: 2000
+            sort: { fields: [frontmatter___date], order: DESC }
+          ) {
+            edges {
+              node {
+                fields {
+                  slug
+                }
+                excerpt
+                timeToRead
+                frontmatter {
+                  title
+                  tags
+                  cover
+                 date
                 }
               }
             }
           }
-        `
+        }
+      `
       ).then(result => {
         if (result.errors) {
           /* eslint no-console: "off" */
@@ -160,11 +161,12 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
           });
         });
 
+        const postsPerPage = config.postsPerPage ? config.postsPerPage : result.data.allMarkdownRemark.edges.length;
         createPaginatedPages({
           edges: result.data.allMarkdownRemark.edges,
           createPage: createPage,
           pageTemplate: "src/templates/index.jsx",
-          pageLength: 3
+          pageLength: postsPerPage
         });
       })
     );
