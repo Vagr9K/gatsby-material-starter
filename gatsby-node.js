@@ -1,6 +1,8 @@
 const path = require("path");
 const _ = require("lodash");
 const webpackLodashPlugin = require("lodash-webpack-plugin");
+const createPaginatedPages = require("gatsby-paginate");
+const SiteConfig = require("./data/SiteConfig");
 
 const postNodes = [];
 
@@ -85,16 +87,23 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
     resolve(
       graphql(
         `
-        {
-          allMarkdownRemark {
+        query IndexQuery {
+          allMarkdownRemark(
+            limit: 2000
+            sort: { fields: [frontmatter___date], order: DESC }
+          ) {
             edges {
               node {
-                frontmatter {
-                  tags
-                  category
-                }
                 fields {
                   slug
+                }
+                excerpt
+                timeToRead
+                frontmatter {
+                  title
+                  tags
+                  cover
+                 date
                 }
               }
             }
@@ -150,6 +159,15 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
               category
             }
           });
+        });
+
+        const postsPerPage = SiteConfig.postsPerPage ? SiteConfig.postsPerPage :
+                             result.data.allMarkdownRemark.edges.length;
+        createPaginatedPages({
+          edges: result.data.allMarkdownRemark.edges,
+          createPage,
+          pageTemplate: "src/templates/index.jsx",
+          pageLength: postsPerPage
         });
       })
     );
