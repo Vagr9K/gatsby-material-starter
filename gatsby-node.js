@@ -161,7 +161,8 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
           });
         });
 
-        const postsPerPage = config.postsPerPage ? config.postsPerPage : result.data.allMarkdownRemark.edges.length;
+        const postsPerPage = config.postsPerPage ? config.postsPerPage :
+                             result.data.allMarkdownRemark.edges.length;
         createPaginatedPages({
           edges: result.data.allMarkdownRemark.edges,
           createPage: createPage,

@@ -26,12 +26,17 @@ const IndexPage = ({ data, pathContext }) => {
       </Helmet>
       <SEO postEdges={group} />
       <PostListing postEdges={group} />
-      <div className="previousLink">
-        <NavLink test={first} url={previousUrl} text="Go to Previous Page" />
-      </div>
-      <div className="nextLink">
-        <NavLink test={last} url={nextUrl} text="Go to Next Page" />
-      </div>
+      { !(first && last) ?
+        <div className="md-grid">
+          <div className="md-cell md-cell--4-col md-cell--4-offset md-typography--text-center">
+            <NavLink test={first} url={previousUrl} text="Go to Previous Page" />
+          </div>
+          <div className="md-cell md-cell--4-col md-typography--text-center">
+            <NavLink test={last} url={nextUrl} text="Go to Next Page" />
+          </div>
+        </div>
+        : ""
+      }
     </div>
   );
 };
