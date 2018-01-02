@@ -20,9 +20,7 @@ class Navigation extends Component {
         desktopDrawerType={NavigationDrawer.DrawerTypes.TEMPORARY}
         toolbarActions={<ToolbarActions config={config} />}
       >
-        <div className="main-container">
-          {children}
-        </div>
+        <div className="main-container">{children}</div>
         <Footer userLinks={footerLinks} />
       </NavigationDrawer>
     );

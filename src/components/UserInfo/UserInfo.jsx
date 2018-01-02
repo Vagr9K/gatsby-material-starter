@@ -40,22 +40,23 @@ class UserInfo extends Component {
           avatar={userAvatar && <Avatar src={userAvatar} role="presentation" />}
           title={userName && userName}
           subtitle={
-            userTwitter
-              ? <Follow
-                  username={userTwitter}
-                  options={{ count: expanded ? "none" : "none" }}
-                />
-              : "Author"
+            userTwitter ? (
+              <Follow
+                username={userTwitter}
+                options={{ count: expanded ? "none" : "none" }}
+              />
+            ) : (
+              "Author"
+            )
           }
         />
         <CardText expandable={!expanded}>
-          {userLocation &&
+          {userLocation && (
             <IconSeparator label={userLocation} iconBefore>
               <FontIcon iconClassName="fa fa-map-marker" />
-            </IconSeparator>}
-          <p>
-            {userDescription && userDescription}
-          </p>
+            </IconSeparator>
+          )}
+          <p>{userDescription && userDescription}</p>
           {userLinksElement}
         </CardText>
       </Card>
