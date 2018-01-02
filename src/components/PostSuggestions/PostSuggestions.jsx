@@ -12,7 +12,7 @@ export default class PostSuggestions extends Component {
         <Link to={postFields.prevSlug} className="post-suggestion">
           <FontIcon
             forceFontSize
-            forceSize="64"
+            forceSize={64}
             className="secondary-color arrow-nav"
           >
             arrow_back
@@ -33,7 +33,7 @@ export default class PostSuggestions extends Component {
           </div>
           <FontIcon
             forceFontSize
-            forceSize="64"
+            forceSize={64}
             className="secondary-color arrow-nav"
           >
             arrow_forward
