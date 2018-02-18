@@ -90,6 +90,7 @@ Install this starter (assuming [Gatsby](https://github.com/gatsbyjs/gatsby/) is 
 
 ```sh
 gatsby new YourProjectName https://github.com/Vagr9K/gatsby-material-starter
+gatsby build
 npm run serve
 ```
 
