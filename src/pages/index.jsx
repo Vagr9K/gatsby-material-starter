@@ -22,7 +22,7 @@ class Index extends React.Component {
 
 export default Index;
 
-/* eslint no-undef: "off"*/
+/* eslint no-undef: "off" */
 export const pageQuery = graphql`
   query IndexQuery {
     allMarkdownRemark(

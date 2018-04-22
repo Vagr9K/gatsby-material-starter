@@ -38,7 +38,7 @@ class PostPreview extends Component {
     const { postInfo } = this.props;
     const { mobile } = this.state;
     const expand = mobile;
-    /* eslint no-undef: "off"*/
+    /* eslint no-undef: "off" */
     const cover = postInfo.cover.startsWith("/")
       ? __PATH_PREFIX__ + postInfo.cover
       : postInfo.cover;

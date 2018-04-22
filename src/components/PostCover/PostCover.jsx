@@ -5,7 +5,7 @@ class PostCover extends Component {
   render() {
     const { postNode, mobile } = this.props;
     const post = postNode.frontmatter;
-    /* eslint no-undef: "off"*/
+    /* eslint no-undef: "off" */
     const cover = post.cover.startsWith("/")
       ? __PATH_PREFIX__ + post.cover
       : post.cover;

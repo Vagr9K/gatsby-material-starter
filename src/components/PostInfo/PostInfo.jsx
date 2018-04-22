@@ -25,7 +25,7 @@ class PostInfo extends Component {
             avatar={
               <Avatar icon={<FontIcon iconClassName="fa fa-folder-open" />} />
             }
-            title={"In category"}
+            title="In category"
             subtitle={post.category}
           />
         </Link>

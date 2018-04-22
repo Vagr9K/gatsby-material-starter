@@ -12,7 +12,8 @@ export default class CategoryTemplate extends React.Component {
         <Helmet>
           <title>{`Posts in category "${category}" | ${
             config.siteTitle
-          }`}</title>
+          }`}
+          </title>
           <link
             rel="canonical"
             href={`${config.siteUrl}/categories/${category}`}
@@ -24,7 +25,7 @@ export default class CategoryTemplate extends React.Component {
   }
 }
 
-/* eslint no-undef: "off"*/
+/* eslint no-undef: "off" */
 export const pageQuery = graphql`
   query CategoryPage($category: String) {
     allMarkdownRemark(
