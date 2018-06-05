@@ -6,9 +6,10 @@ class PostCover extends Component {
     const { postNode, mobile } = this.props;
     const post = postNode.frontmatter;
     /* eslint no-undef: "off" */
-    const cover = post.cover.startsWith("/")
-      ? __PATH_PREFIX__ + post.cover
-      : post.cover;
+    const cover =
+      post.cover.substring(0, 1) === "/"
+        ? __PATH_PREFIX__ + post.cover
+        : post.cover;
     const coverHeight = mobile ? 180 : 350;
     return (
       <div
