@@ -1,6 +1,6 @@
 ---
 title: "Introducing Gatsby Material Starter"
-cover: "/logos/logo-1024.png"
+cover: "starter-logo-1024.png"
 category: "gatsby"
 tags:
 
@@ -12,6 +12,7 @@ date: "18/07/2017"
 ---
 
 Not so long ago, this project got ported to v1 version of GatsbyJS.
+
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Great news! Gatsby Material starter is now based on stable V1 of <a href="https://twitter.com/gatsbyjs">@gatsbyjs</a>!<a href="https://t.co/P2JqNbcRmk">https://t.co/P2JqNbcRmk</a></p>&mdash; Ruben Harutyunyan (@Vagr9K) <a href="https://twitter.com/Vagr9K/status/883073085963993089">July 6, 2017</a></blockquote>
 
 And now, it's super exciting for me to announce the `v1.1` version of `Gatsby Material Starter`!
