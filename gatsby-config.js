@@ -31,6 +31,13 @@ module.exports = {
       }
     },
     {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "covers",
+        path: `${__dirname}/static/covers/`
+      }
+    },
+    {
       resolve: "gatsby-transformer-remark",
       options: {
         plugins: [
@@ -62,6 +69,7 @@ module.exports = {
       }
     },
     "gatsby-plugin-remove-trailing-slashes",
+    "gatsby-transformer-sharp",
     "gatsby-plugin-sharp",
     "gatsby-plugin-catch-links",
     "gatsby-plugin-twitter",
