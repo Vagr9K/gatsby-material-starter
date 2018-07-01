@@ -7,6 +7,7 @@ import config from "../../data/SiteConfig";
 class Index extends React.Component {
   render() {
     const postEdges = this.props.data.allMarkdownRemark.edges;
+    const fileEdges = this.props.data.allFile.edges;
     return (
       <div className="index-container">
         <Helmet>
@@ -14,7 +15,7 @@ class Index extends React.Component {
           <link rel="canonical" href={`${config.siteUrl}`} />
         </Helmet>
         <SEO postEdges={postEdges} />
-        <PostListing postEdges={postEdges} />
+        <PostListing postEdges={postEdges} fileEdges={fileEdges} />
       </div>
     );
   }
@@ -25,6 +26,37 @@ export default Index;
 /* eslint no-undef: "off" */
 export const pageQuery = graphql`
   query IndexQuery {
+    allFile {
+      edges {
+        node {
+          id
+          childImageSharp {
+            id
+            resolutions {
+              base64
+              tracedSVG
+              aspectRatio
+              width
+              height
+              src
+              srcSet
+              srcWebp
+              srcSetWebp
+              originalName
+            }
+            internal {
+              contentDigest
+              type
+              owner
+            }
+            sizes(maxWidth: 1240) {
+              ...GatsbyImageSharpSizes
+              originalName
+            }
+          }
+        }
+      }
+    }
     allMarkdownRemark(
       limit: 2000
       sort: { fields: [frontmatter___date], order: DESC }
