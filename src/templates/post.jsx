@@ -53,6 +53,8 @@ export default class PostTemplate extends React.Component {
     if (!post.category_id) {
       post.category_id = config.postDefaultCategoryID;
     }
+
+    const coverHeight = mobile ? 180 : 350;
     return (
       <div className="post-page md-grid md-grid--no-spacing">
         <Helmet>
@@ -60,7 +62,12 @@ export default class PostTemplate extends React.Component {
           <link rel="canonical" href={`${config.siteUrl}${post.id}`} />
         </Helmet>
         <SEO postPath={slug} postNode={postNode} postSEO />
-        <PostCover postNode={postNode} mobile={mobile} fileEdges={fileEdges} />
+        <PostCover
+          postNode={postNode}
+          coverHeight={coverHeight}
+          coverClassName="md-grid md-cell--9 post-cover"
+          fileEdges={fileEdges}
+        />
         <div
           className={`md-grid md-cell--9 post-page-contents mobile-fix ${postOverlapClass}`}
         >
