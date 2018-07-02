@@ -59,12 +59,13 @@ export const pageQuery = graphql`
     }
     allMarkdownRemark(
       limit: 2000
-      sort: { fields: [frontmatter___date], order: DESC }
+      sort: { fields: [fields___date], order: DESC }
     ) {
       edges {
         node {
           fields {
             slug
+            date
           }
           excerpt
           timeToRead

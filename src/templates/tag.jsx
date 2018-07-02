@@ -56,7 +56,7 @@ export const pageQuery = graphql`
     }
     allMarkdownRemark(
       limit: 1000
-      sort: { fields: [frontmatter___date], order: DESC }
+      sort: { fields: [fields___date], order: DESC }
       filter: { frontmatter: { tags: { in: [$tag] } } }
     ) {
       totalCount
@@ -64,6 +64,7 @@ export const pageQuery = graphql`
         node {
           fields {
             slug
+            date
           }
           excerpt
           timeToRead

@@ -120,6 +120,7 @@ export const pageQuery = graphql`
         prevTitle
         prevSlug
         slug
+        date
       }
     }
     allFile {
