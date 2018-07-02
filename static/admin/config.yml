@@ -1,18 +1,22 @@
 backend:
-  name: git-gateway
-  branch: master # Branch to update
+  name: github
+  branch: netlify-cms-test # Branch to update
+  repo: vagr9k/gatsby-material-starter # Repo for pushing new commits
 
 media_folder: static/assets
 public_folder: assets
 
 collections:
   - name: blog
-    label: Blog
-    folder: content/sample-posts
+    label: "Post"
+    folder: "content/posts"
     create: true
-    slug: "{{slug}}"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}.md"
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Cover Image", name: "cover", widget: "image"}
+      - {label: "Slug", name: "slug", widget: "string"}
+      - {label: "Category", name: "category", widget: "string"}
+      - {label: "Tags", name: "tags", widget: "list"}
       - {label: "Body", name: "body", widget: "markdown"}
