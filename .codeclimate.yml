@@ -3,6 +3,9 @@ version: "2"
 plugins:
   eslint:
     enabled: true
+    channel: "eslint-4"
+    config:
+      config: .eslintrc.json
 
 checks:
   method-complexity:
@@ -10,6 +13,10 @@ checks:
   method-lines:
     config:
       threshold: 150
+  similar-code:
+    enabled: false
+  identical-code:
+    enabled: false
 
 ratings:
    paths:
