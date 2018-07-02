@@ -27,7 +27,7 @@ More information in the [announcement](https://www.gatsbyjs.org/blog/gatsby-firs
   * Integrated FontAwesome support
   * Integrated Material Icons support
 * SASS/SCSS styling
-* NetlifyCMS support for creating/editing posts via admin panel
+* [NetlifyCMS](https://www.netlifycms.org/docs/intro/) support for creating/editing posts via admin panel
 * Separate components for everything
 * High configurability:
   * User information
@@ -88,6 +88,11 @@ You can also visit [my personal blog](https://vagr9k.me) if you want to see a fu
 
 ![Article Screenshot](docs/screenshot-article.png)
 ![Mobile Screenshot](docs/screenshot-mobile.png)
+
+Showcase of NetlifyCMS:
+
+![Netlify Admin Dashboard](docs/netlifyadmin-main.png)
+![Netlify Admin Post Editing](docs/netlifyadmin-edit.png)
 
 ## Getting Started
 
@@ -172,6 +177,21 @@ module.exports = {
 NOTE: `user*`, `disqusShortname` and `copyright` are optional and won't render if omitted.
 
 WARNING: Make sure to edit `static/robots.txt` to include your domain for the sitemap!
+
+## NetlifyCMS
+
+First of all, make sure to edit `static/admin/config.yml` and add your [GitHub/GitLab/NetlifyId credentials](https://www.netlifycms.org/docs/authentication-backends/):
+
+```yml
+backend:
+  name: github # Refer to https://www.netlifycms.org/docs/authentication-backends/ for auth backend list and instructions
+  branch: master # Branch to update
+  repo: vagr9k/gatsby-material-starter # Repo for pushing new commits. Make sure to replace with your repo!
+```
+
+You can visit `/admin/` after and will be greeted by a login dialog (depending on the auth provider you ave chosen above).
+
+For NetlifyCMS specific issues visit the [official documentation](https://www.netlifycms.org/docs/intro/).
 
 ## Theming
 
