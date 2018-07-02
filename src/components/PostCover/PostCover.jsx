@@ -12,7 +12,7 @@ class PostCover extends Component {
 
       if (
         fileNode.node.absolutePath.indexOf(
-          path.join("/static/", post.cover)
+          path.join("/static/assets/", post.cover)
         ) !== -1
       )
         return true;
