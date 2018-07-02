@@ -8,6 +8,7 @@ import FontIcon from "react-md/lib/FontIcons";
 import Link from "gatsby-link";
 import Media, { MediaOverlay } from "react-md/lib/Media";
 import PostTags from "../PostTags/PostTags";
+import PostCover from "../PostCover/PostCover";
 import "./PostPreview.scss";
 
 class PostPreview extends Component {
@@ -35,7 +36,7 @@ class PostPreview extends Component {
     }
   }
   render() {
-    const { postInfo } = this.props;
+    const { postInfo, fileEdges } = this.props;
     const { mobile } = this.state;
     const expand = mobile;
     /* eslint no-undef: "off" */
@@ -47,13 +48,12 @@ class PostPreview extends Component {
     return (
       <Card key={postInfo.path} raise className="md-grid md-cell md-cell--12">
         <Link style={{ textDecoration: "none" }} to={postInfo.path}>
-          <Media
-            style={{
-              backgroundImage: `url(${cover})`,
-              height: `${coverHeight}px`
-            }}
-            className="post-preview-cover"
-          >
+          <Media style={{ height: coverHeight, paddingBottom: "0px" }}>
+            <PostCover
+              fileEdges={fileEdges}
+              postNode={postInfo}
+              coverHeight={coverHeight}
+            />
             <MediaOverlay>
               <CardTitle title={postInfo.title}>
                 <Button raised secondary className="md-cell--right">
