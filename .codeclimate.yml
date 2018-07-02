@@ -1,14 +1,15 @@
-engines:
+version: "2"
+
+plugins:
   eslint:
     enabled: true
-  stylelint:
-    enabled: true
-  duplication:
-    enabled: true
+
+checks:
+  method-complexity:
+    enabled: false
+  method-lines:
     config:
-      languages:
-        javascript:
-          mass_threshold: 70
+      threshold: 150
 
 ratings:
    paths:
