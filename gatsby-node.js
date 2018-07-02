@@ -1,6 +1,8 @@
 const path = require("path");
 const _ = require("lodash");
 const webpackLodashPlugin = require("lodash-webpack-plugin");
+const moment = require("moment");
+const siteConfig = require("./data/SiteConfig");
 
 const postNodes = [];
 
@@ -56,11 +58,21 @@ exports.onCreateNode = ({ node, boundActionCreators, getNode }) => {
     } else {
       slug = `/${parsedFilePath.dir}/`;
     }
-    if (
-      Object.prototype.hasOwnProperty.call(node, "frontmatter") &&
-      Object.prototype.hasOwnProperty.call(node.frontmatter, "slug")
-    ) {
-      slug = `/${_.kebabCase(node.frontmatter.slug)}`;
+
+    if (Object.prototype.hasOwnProperty.call(node, "frontmatter")) {
+      if (Object.prototype.hasOwnProperty.call(node.frontmatter, "slug"))
+        slug = `/${_.kebabCase(node.frontmatter.slug)}`;
+      if (Object.prototype.hasOwnProperty.call(node.frontmatter, "date")) {
+        const date = moment(node.frontmatter.date);
+        if (!date.isValid)
+          console.warn(`WARNING: Invalid date.`, node.frontmatter);
+
+        createNodeField({
+          node,
+          name: "date",
+          value: date.format(siteConfig.dateFormat)
+        });
+      }
     }
     createNodeField({ node, name: "slug", value: slug });
     postNodes.push(node);
