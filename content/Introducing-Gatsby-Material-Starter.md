@@ -15,20 +15,18 @@ Not so long ago, this project got ported to v1 version of GatsbyJS.
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Great news! Gatsby Material starter is now based on stable V1 of <a href="https://twitter.com/gatsbyjs">@gatsbyjs</a>!<a href="https://t.co/P2JqNbcRmk">https://t.co/P2JqNbcRmk</a></p>&mdash; Ruben Harutyunyan (@Vagr9K) <a href="https://twitter.com/Vagr9K/status/883073085963993089">July 6, 2017</a></blockquote>
 
-And now, it's super exciting for me to announce the `v1.1` version of `Gatsby Material Starter`!
+And now, it's super exciting for me to announce the `v1.2` version of `Gatsby Material Starter`!
 
 You can also visit [my personal blog](https://vagr9k.me) if you want to see a fully implemented blog based on this starter.
 
 New features are:
 
-* Suggested posts segment
-* Development tools
-  * ESLint for linting
-  * Prettier for code style
-  * Remark-Lint for linting Markdown
-  * write-good for linting English prose
-  * gh-pages for deploying to GitHub pages
-  * CodeClimate configuration file and badge
+* NetlifyCMS support
+* Complete optimization of all image assets via `gatsby-image` for faster loading times
+* New date formatting options
+* Netlify build configuration to make deploys easier
+* Less restrictive URL options
+* Bug fixes related to dates and sorting
 
 Full feature list:
 
@@ -37,6 +35,7 @@ Full feature list:
   * Integrated FontAwesome support
   * Integrated Material Icons support
 * SASS/SCSS styling
+* [NetlifyCMS](https://www.netlifycms.org/docs/intro/) support for creating/editing posts via admin panel
 * Separate components for everything
 * High configurability:
   * User information
@@ -60,7 +59,6 @@ Full feature list:
 * Suggested posts segment
 * Disqus support
   * Notifications about new disqus comments
-* Google Analytics support
 * Responsive design
   * On mobile, Disqus is loaded only after expanding comments for better performance
 * Social features
@@ -81,6 +79,9 @@ Full feature list:
 * Loading progress for slow networks
 * Offline support
 * Web App Manifest support
+* Automatic image transformation and size optimization
+* Netlify deploy configuration
+* Google Analytics support
 * Development tools
   * ESLint for linting
   * Prettier for code style
