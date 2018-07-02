@@ -1,15 +1,20 @@
 import React, { Component } from "react";
 import Img from "gatsby-image";
+import path from "path";
 import "./PostCover.scss";
 
 class PostCover extends Component {
   render() {
     const { fileEdges, postNode, coverHeight, coverClassName } = this.props;
-
     const post = postNode.frontmatter ? postNode.frontmatter : postNode;
     const coverNodeList = fileEdges.filter(fileNode => {
       if (fileNode.node.childImageSharp === null) return false;
-      if (fileNode.node.childImageSharp.resolutions.originalName === post.cover)
+
+      if (
+        fileNode.node.absolutePath.indexOf(
+          path.join("/static/", post.cover)
+        ) !== -1
+      )
         return true;
 
       return false;
