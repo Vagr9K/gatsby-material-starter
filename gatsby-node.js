@@ -2,7 +2,6 @@ const path = require("path");
 const _ = require("lodash");
 const webpackLodashPlugin = require("lodash-webpack-plugin");
 const moment = require("moment");
-const siteConfig = require("./data/SiteConfig");
 
 const postNodes = [];
 
@@ -78,7 +77,7 @@ exports.onCreateNode = ({ node, boundActionCreators, getNode }) => {
         createNodeField({
           node,
           name: "date",
-          value: date.format(siteConfig.dateFormat)
+          value: date.toISOString()
         });
       }
     }
