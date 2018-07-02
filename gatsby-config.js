@@ -1,19 +1,21 @@
 const config = require("./data/SiteConfig");
+const urljoin = require("url-join");
 
-const pathPrefix = config.pathPrefix === "/" ? "" : config.pathPrefix;
-
-const regexExcludeRobots = /^(?!\/(dev-404-page|404|offline-plugin-app-shell-fallback|tags|categories)).*$/
+const regexExcludeRobots = /^(?!\/(dev-404-page|404|offline-plugin-app-shell-fallback|tags|categories)).*$/;
 
 module.exports = {
   pathPrefix: config.pathPrefix,
   siteMetadata: {
-    siteUrl: config.siteUrl + pathPrefix,
+    siteUrl: urljoin(config.siteUrl, config.pathPrefix),
     rssMetadata: {
-      site_url: config.siteUrl + pathPrefix,
-      feed_url: config.siteUrl + pathPrefix + config.siteRss,
+      site_url: urljoin(config.siteUrl, config.pathPrefix),
+      feed_url: urljoin(config.siteUrl, config.pathPrefix, config.siteRss),
       title: config.siteTitle,
       description: config.siteDescription,
-      image_url: `${config.siteUrl + pathPrefix}/logos/logo-512.png`,
+      image_url: `${urljoin(
+        config.siteUrl,
+        config.pathPrefix
+      )}/logos/logo-512.png`,
       author: config.userName,
       copyright: config.copyright
     }
@@ -24,8 +26,15 @@ module.exports = {
     {
       resolve: "gatsby-source-filesystem",
       options: {
+        name: "assets",
+        path: `${__dirname}/static/assets/`
+      }
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
         name: "posts",
-        path: `${__dirname}/content/${config.blogPostDir}`
+        path: `${__dirname}/content`
       }
     },
     {
@@ -33,9 +42,12 @@ module.exports = {
       options: {
         plugins: [
           {
+            resolve: `gatsby-remark-relative-images`
+          },
+          {
             resolve: "gatsby-remark-images",
             options: {
-              maxWidth: 1200
+              maxWidth: 672
             }
           },
           {
@@ -59,8 +71,10 @@ module.exports = {
         color: "#c62828"
       }
     },
+    "gatsby-transformer-sharp",
     "gatsby-plugin-sharp",
     "gatsby-plugin-catch-links",
+    "gatsby-plugin-netlify-cms",
     "gatsby-plugin-twitter",
     {
       resolve: "gatsby-plugin-sitemap",
@@ -94,7 +108,7 @@ module.exports = {
       resolve: "gatsby-plugin-manifest",
       options: {
         name: config.siteTitle,
-        short_name: config.siteTitle,
+        short_name: config.siteTitleShort,
         description: config.siteDescription,
         start_url: config.pathPrefix,
         background_color: "#e0e0e0",

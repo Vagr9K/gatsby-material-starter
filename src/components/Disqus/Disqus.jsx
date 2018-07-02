@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import ReactDisqusComments from "react-disqus-comments";
+import urljoin from "url-join";
 import Card from "react-md/lib/Cards/Card";
 import CardTitle from "react-md/lib/Cards/CardTitle";
 import CardText from "react-md/lib/Cards/CardText";
@@ -33,7 +34,12 @@ class Disqus extends Component {
       return null;
     }
     const post = postNode.frontmatter;
-    const url = config.siteUrl + config.pathPrefix + postNode.fields.slug;
+    const url = urljoin(
+      config.siteUrl,
+      config.pathPrefix,
+      postNode.fields.slug
+    );
+
     return (
       <Card className="md-grid md-cell md-cell--12">
         <CardTitle

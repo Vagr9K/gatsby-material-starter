@@ -27,6 +27,7 @@ More information in the [announcement](https://www.gatsbyjs.org/blog/gatsby-firs
   * Integrated FontAwesome support
   * Integrated Material Icons support
 * SASS/SCSS styling
+* [NetlifyCMS](https://www.netlifycms.org/docs/intro/) support for creating/editing posts via admin panel
 * Separate components for everything
 * High configurability:
   * User information
@@ -50,7 +51,6 @@ More information in the [announcement](https://www.gatsbyjs.org/blog/gatsby-firs
 * Suggested posts segment
 * Disqus support
   * Notifications about new disqus comments
-* Google Analytics support
 * Responsive design
   * On mobile, Disqus is loaded only after expanding comments for better performance
 * Social features
@@ -71,6 +71,9 @@ More information in the [announcement](https://www.gatsbyjs.org/blog/gatsby-firs
 * Loading progress for slow networks
 * Offline support
 * Web App Manifest support
+* Automatic image transformation and size optimization
+* Netlify deploy configuration
+* Google Analytics support
 * Development tools
   * ESLint for linting
   * Prettier for code style
@@ -85,6 +88,11 @@ You can also visit [my personal blog](https://vagr9k.me) if you want to see a fu
 
 ![Article Screenshot](docs/screenshot-article.png)
 ![Mobile Screenshot](docs/screenshot-mobile.png)
+
+Showcase of NetlifyCMS:
+
+![Netlify Admin Dashboard](docs/netlifyadmin-main.png)
+![Netlify Admin Post Editing](docs/netlifyadmin-edit.png)
 
 ## Getting Started
 
@@ -114,18 +122,21 @@ Edit the export object in `data/SiteConfig`:
 
 ```js
 module.exports = {
-  blogPostDir: "sample-posts", // The name of directory that contains your posts.
   siteTitle: "Gatsby Material Starter", // Site title.
+  siteTitleShort: "GM Starter", // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
   siteTitleAlt: "GatsbyJS Material Starter", // Alternative site title for SEO.
   siteLogo: "/logos/logo-1024.png", // Logo used for SEO and manifest.
   siteUrl: "https://vagr9k.github.io", // Domain of your website without pathPrefix.
   pathPrefix: "/gatsby-material-starter", // Prefixes all links. For cases when deployed to example.github.io/gatsby-material-starter/.
+  fixedFooter: false, // Whether the footer component is fixed, i.e. always visible
   siteDescription: "A GatsbyJS stater with Material design in mind.", // Website description used for RSS feeds/meta description tag.
   siteRss: "/rss.xml", // Path to the RSS file.
   siteFBAppID: "1825356251115265", // FB Application ID for using app insights
   siteGATrackingID: "UA-47311644-4", // Tracking code ID for google analytics.
   disqusShortname: "https-vagr9k-github-io-gatsby-material-starter", // Disqus shortname.
   postDefaultCategoryID: "Tech", // Default category for posts.
+  dateFromFormat: "YYYY-MM-DD", // Date format used in the frontmatter.
+  dateFormat: "DD/MM/YYYY", // Date format for display.
   userName: "Material User", // Username to display in the author segment.
   userTwitter: "", // Optionally renders "Follow Me" in the UserInfo segment.
   userLocation: "North Pole, Earth", // User location to display in the author segment.
@@ -166,6 +177,21 @@ module.exports = {
 NOTE: `user*`, `disqusShortname` and `copyright` are optional and won't render if omitted.
 
 WARNING: Make sure to edit `static/robots.txt` to include your domain for the sitemap!
+
+## NetlifyCMS
+
+First of all, make sure to edit `static/admin/config.yml` and add your [GitHub/GitLab/NetlifyId credentials](https://www.netlifycms.org/docs/authentication-backends/):
+
+```yml
+backend:
+  name: github # Refer to https://www.netlifycms.org/docs/authentication-backends/ for auth backend list and instructions
+  branch: master # Branch to update
+  repo: vagr9k/gatsby-material-starter # Repo for pushing new commits. Make sure to replace with your repo!
+```
+
+You can visit `/admin/` after and will be greeted by a login dialog (depending on the auth provider you ave chosen above).
+
+For NetlifyCMS specific issues visit the [official documentation](https://www.netlifycms.org/docs/intro/).
 
 ## Theming
 

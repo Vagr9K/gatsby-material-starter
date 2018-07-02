@@ -1,13 +1,23 @@
 const path = require("path");
 const _ = require("lodash");
 const webpackLodashPlugin = require("lodash-webpack-plugin");
+const moment = require("moment");
+const config = require("./data/SiteConfig");
 
 const postNodes = [];
 
 function addSiblingNodes(createNodeField) {
   postNodes.sort(
-    ({ frontmatter: { date: date1 } }, { frontmatter: { date: date2 } }) =>
-      new Date(date1) - new Date(date2)
+    ({ frontmatter: { date: date1 } }, { frontmatter: { date: date2 } }) => {
+      const dateA = moment(date1, config.dateFromFormat);
+      const dateB = moment(date2, config.dateFromFormat);
+
+      if (dateA.isBefore(dateB)) return 1;
+
+      if (dateB.isBefore(dateA)) return -1;
+
+      return 0;
+    }
   );
   for (let i = 0; i < postNodes.length; i += 1) {
     const nextID = i + 1 < postNodes.length ? i + 1 : 0;
@@ -56,11 +66,21 @@ exports.onCreateNode = ({ node, boundActionCreators, getNode }) => {
     } else {
       slug = `/${parsedFilePath.dir}/`;
     }
-    if (
-      Object.prototype.hasOwnProperty.call(node, "frontmatter") &&
-      Object.prototype.hasOwnProperty.call(node.frontmatter, "slug")
-    ) {
-      slug = `/${_.kebabCase(node.frontmatter.slug)}`;
+
+    if (Object.prototype.hasOwnProperty.call(node, "frontmatter")) {
+      if (Object.prototype.hasOwnProperty.call(node.frontmatter, "slug"))
+        slug = `/${_.kebabCase(node.frontmatter.slug)}`;
+      if (Object.prototype.hasOwnProperty.call(node.frontmatter, "date")) {
+        const date = moment(node.frontmatter.date, config.dateFromFormat);
+        if (!date.isValid)
+          console.warn(`WARNING: Invalid date.`, node.frontmatter);
+
+        createNodeField({
+          node,
+          name: "date",
+          value: date.toISOString()
+        });
+      }
     }
     createNodeField({ node, name: "slug", value: slug });
     postNodes.push(node);
@@ -156,8 +176,8 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
   });
 };
 
-exports.modifyWebpackConfig = ({ config, stage }) => {
+exports.modifyWebpackConfig = ({ webpackConfig, stage }) => {
   if (stage === "build-javascript") {
-    config.plugin("Lodash", webpackLodashPlugin, null);
+    webpackConfig.plugin("Lodash", webpackLodashPlugin, null);
   }
 };

@@ -1,6 +1,6 @@
 module.exports = {
-  blogPostDir: "sample-posts", // The name of directory that contains your posts.
   siteTitle: "Gatsby Material Starter", // Site title.
+  siteTitleShort: "GM Starter", // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
   siteTitleAlt: "GatsbyJS Material Starter", // Alternative site title for SEO.
   siteLogo: "/logos/logo-1024.png", // Logo used for SEO and manifest.
   siteUrl: "https://vagr9k.github.io", // Domain of your website without pathPrefix.
@@ -12,6 +12,8 @@ module.exports = {
   siteGATrackingID: "UA-47311644-4", // Tracking code ID for google analytics.
   disqusShortname: "https-vagr9k-github-io-gatsby-material-starter", // Disqus shortname.
   postDefaultCategoryID: "Tech", // Default category for posts.
+  dateFromFormat: "YYYY-MM-DD", // Date format used in the frontmatter.
+  dateFormat: "DD/MM/YYYY", // Date format for display.
   userName: "Material User", // Username to display in the author segment.
   userTwitter: "", // Optionally renders "Follow Me" in the UserInfo segment.
   userLocation: "North Pole, Earth", // User location to display in the author segment.
