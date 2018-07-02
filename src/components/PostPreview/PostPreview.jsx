@@ -40,10 +40,6 @@ class PostPreview extends Component {
     const { mobile } = this.state;
     const expand = mobile;
     /* eslint no-undef: "off" */
-    const cover =
-      postInfo.cover.substring(0, 1) === "/"
-        ? __PATH_PREFIX__ + postInfo.cover
-        : postInfo.cover;
     const coverHeight = mobile ? 162 : 225;
     return (
       <Card key={postInfo.path} raise className="md-grid md-cell md-cell--12">
