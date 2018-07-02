@@ -2,15 +2,15 @@ const path = require("path");
 const _ = require("lodash");
 const webpackLodashPlugin = require("lodash-webpack-plugin");
 const moment = require("moment");
-const config = require("./data/SiteConfig");
+const siteConfig = require("./data/SiteConfig");
 
 const postNodes = [];
 
 function addSiblingNodes(createNodeField) {
   postNodes.sort(
     ({ frontmatter: { date: date1 } }, { frontmatter: { date: date2 } }) => {
-      const dateA = moment(date1, config.dateFromFormat);
-      const dateB = moment(date2, config.dateFromFormat);
+      const dateA = moment(date1, siteConfig.dateFromFormat);
+      const dateB = moment(date2, siteConfig.dateFromFormat);
 
       if (dateA.isBefore(dateB)) return 1;
 
@@ -71,7 +71,7 @@ exports.onCreateNode = ({ node, boundActionCreators, getNode }) => {
       if (Object.prototype.hasOwnProperty.call(node.frontmatter, "slug"))
         slug = `/${_.kebabCase(node.frontmatter.slug)}`;
       if (Object.prototype.hasOwnProperty.call(node.frontmatter, "date")) {
-        const date = moment(node.frontmatter.date, config.dateFromFormat);
+        const date = moment(node.frontmatter.date, siteConfig.dateFromFormat);
         if (!date.isValid)
           console.warn(`WARNING: Invalid date.`, node.frontmatter);
 
@@ -176,8 +176,8 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
   });
 };
 
-exports.modifyWebpackConfig = ({ webpackConfig, stage }) => {
+exports.modifyWebpackConfig = ({ config, stage }) => {
   if (stage === "build-javascript") {
-    webpackConfig.plugin("Lodash", webpackLodashPlugin, null);
+    config.plugin("Lodash", webpackLodashPlugin, null);
   }
 };
