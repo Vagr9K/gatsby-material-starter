@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import Helmet from "react-helmet";
-
-const urljoin = require("url-join");
-
+import urljoin from "url-join";
 import config from "../../../data/SiteConfig";
 
 class SEO extends Component {
