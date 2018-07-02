@@ -1,7 +1,7 @@
 ---
 title: "Bold Mage"
 cover: "8.jpg"
-date: "01/01/2017"
+date: "2017-01-01"
 category: "tech"
 tags:
     - programming

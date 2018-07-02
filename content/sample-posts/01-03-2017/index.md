@@ -2,7 +2,7 @@
 title: "Angels of Mist"
 cover: "6.jpg"
 category: "test3"
-date: "01/03/2017"
+date: "2017-03-01"
 tags:
     - cheese
     - other

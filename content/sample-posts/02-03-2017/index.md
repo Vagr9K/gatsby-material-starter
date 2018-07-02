@@ -2,7 +2,7 @@
 title: "Random project 4 With Super Long Title Phase One"
 cover: "4.jpg"
 category: "random"
-date: "02/03/2017"
+date: "2017-03-02"
 tags:
     - say hi
 ---

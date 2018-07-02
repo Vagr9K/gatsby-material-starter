@@ -1,7 +1,7 @@
 ---
 title: "Birch in the Roses"
 cover: "1.jpg"
-date: "01/03/2017"
+date: "2017-03-01"
 category: "tech"
 tags:
     - tag

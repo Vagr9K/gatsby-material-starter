@@ -1,7 +1,7 @@
 ---
 title: "The Fallen Time"
 cover: "7.jpg"
-date: "01/02/2017"
+date: "2017-02-01"
 category: "another one"
 tags:
     - test
