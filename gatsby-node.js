@@ -8,8 +8,16 @@ const postNodes = [];
 
 function addSiblingNodes(createNodeField) {
   postNodes.sort(
-    ({ frontmatter: { date: date1 } }, { frontmatter: { date: date2 } }) =>
-      new Date(date1) - new Date(date2)
+    ({ frontmatter: { date: date1 } }, { frontmatter: { date: date2 } }) => {
+      const dateA = moment(date1);
+      const dateB = moment(date2);
+
+      if (dateA.isBefore(dateB)) return 1;
+
+      if (dateB.isBefore(dateA)) return -1;
+
+      return 0;
+    }
   );
   for (let i = 0; i < postNodes.length; i += 1) {
     const nextID = i + 1 < postNodes.length ? i + 1 : 0;
