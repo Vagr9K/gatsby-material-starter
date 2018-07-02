@@ -26,21 +26,24 @@ module.exports = {
     {
       resolve: "gatsby-source-filesystem",
       options: {
-        name: "posts",
-        path: `${__dirname}/content`
+        name: "assets",
+        path: `${__dirname}/static/assets/`
       }
     },
     {
       resolve: "gatsby-source-filesystem",
       options: {
-        name: "assets",
-        path: `${__dirname}/static/assets/`
+        name: "posts",
+        path: `${__dirname}/content`
       }
     },
     {
       resolve: "gatsby-transformer-remark",
       options: {
         plugins: [
+          {
+            resolve: `gatsby-remark-relative-images`
+          },
           {
             resolve: "gatsby-remark-images",
             options: {
