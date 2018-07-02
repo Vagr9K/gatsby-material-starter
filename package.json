@@ -25,6 +25,7 @@
     "gatsby-remark-copy-linked-files": "^1.5.25",
     "gatsby-remark-images": "^1.5.36",
     "gatsby-remark-prismjs": "^1.2.11",
+    "gatsby-remark-relative-images": "^0.1.2",
     "gatsby-remark-responsive-iframe": "^1.4.16",
     "gatsby-source-filesystem": "^1.5.11",
     "gatsby-transformer-remark": "^1.7.26",
@@ -59,7 +60,9 @@
     "stylelint-config-standard": "^18.0.0",
     "write-good": "^0.11.3"
   },
-  "keywords": ["gatsby"],
+  "keywords": [
+    "gatsby"
+  ],
   "license": "MIT",
   "main": "n/a",
   "scripts": {
@@ -76,6 +79,8 @@
     "format:js": "prettier '**/*.{js,jsx}' --write"
   },
   "remarkConfig": {
-    "plugins": ["remark-preset-lint-recommended"]
+    "plugins": [
+      "remark-preset-lint-recommended"
+    ]
   }
 }
