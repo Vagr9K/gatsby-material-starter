@@ -1,6 +1,6 @@
 backend:
   name: github
-  branch: netlify-cms-test # Branch to update
+  branch: master # Branch to update
   repo: vagr9k/gatsby-material-starter # Repo for pushing new commits
 
 media_folder: static/assets
