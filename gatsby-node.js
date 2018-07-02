@@ -2,14 +2,15 @@ const path = require("path");
 const _ = require("lodash");
 const webpackLodashPlugin = require("lodash-webpack-plugin");
 const moment = require("moment");
+const config = require("./data/SiteConfig");
 
 const postNodes = [];
 
 function addSiblingNodes(createNodeField) {
   postNodes.sort(
     ({ frontmatter: { date: date1 } }, { frontmatter: { date: date2 } }) => {
-      const dateA = moment(date1);
-      const dateB = moment(date2);
+      const dateA = moment(date1, config.dateFromFormat);
+      const dateB = moment(date2, config.dateFromFormat);
 
       if (dateA.isBefore(dateB)) return 1;
 
@@ -70,7 +71,7 @@ exports.onCreateNode = ({ node, boundActionCreators, getNode }) => {
       if (Object.prototype.hasOwnProperty.call(node.frontmatter, "slug"))
         slug = `/${_.kebabCase(node.frontmatter.slug)}`;
       if (Object.prototype.hasOwnProperty.call(node.frontmatter, "date")) {
-        const date = moment(node.frontmatter.date);
+        const date = moment(node.frontmatter.date, config.dateFromFormat);
         if (!date.isValid)
           console.warn(`WARNING: Invalid date.`, node.frontmatter);
 
