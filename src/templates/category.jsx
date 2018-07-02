@@ -32,6 +32,7 @@ export const pageQuery = graphql`
       edges {
         node {
           id
+          absolutePath
           childImageSharp {
             id
             resolutions {
