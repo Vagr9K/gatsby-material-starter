@@ -1,188 +1,194 @@
 {
   "assetsByChunkName": {
     "path---tags-other": [
-      "path---tags-other-54be0478cf5983b39026.js",
-      "path---tags-other-54be0478cf5983b39026.js.map"
+      "path---tags-other-9c88d62ffef375168bac.js",
+      "path---tags-other-9c88d62ffef375168bac.js.map"
     ],
     "path---tags-programming": [
-      "path---tags-programming-2cb8ed6e5fe0b0af8124.js",
-      "path---tags-programming-2cb8ed6e5fe0b0af8124.js.map"
+      "path---tags-programming-281ce532dee12b8f3c8a.js",
+      "path---tags-programming-281ce532dee12b8f3c8a.js.map"
     ],
     "path---the-butterfly-of-the-edge": [
-      "path---the-butterfly-of-the-edge-b17b47926294aec7296b.js",
-      "path---the-butterfly-of-the-edge-b17b47926294aec7296b.js.map"
+      "path---the-butterfly-of-the-edge-84be8fd13239984d39de.js",
+      "path---the-butterfly-of-the-edge-84be8fd13239984d39de.js.map"
     ],
     "path---tags-more-tags": [
-      "path---tags-more-tags-a9aa377641425c0f2836.js",
-      "path---tags-more-tags-a9aa377641425c0f2836.js.map"
+      "path---tags-more-tags-a4447d21de00cddc6bff.js",
+      "path---tags-more-tags-a4447d21de00cddc6bff.js.map"
     ],
     "path---random-project-4-with-super-long-title-phase-one": [
-      "path---random-project-4-with-super-long-title-phase-one-531d40653015363cfca9.js",
-      "path---random-project-4-with-super-long-title-phase-one-531d40653015363cfca9.js.map"
+      "path---random-project-4-with-super-long-title-phase-one-f75f08c0dbedfee20245.js",
+      "path---random-project-4-with-super-long-title-phase-one-f75f08c0dbedfee20245.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
       "path----557518bd178906f8d58a.js.map"
     ],
     "path---tags-cheese": [
-      "path---tags-cheese-01e78e7b6807900eb545.js",
-      "path---tags-cheese-01e78e7b6807900eb545.js.map"
+      "path---tags-cheese-4767365a94b19dee268c.js",
+      "path---tags-cheese-4767365a94b19dee268c.js.map"
     ],
     "path---categories-moar": [
-      "path---categories-moar-3465fe6276192b63f7ef.js",
-      "path---categories-moar-3465fe6276192b63f7ef.js.map"
+      "path---categories-moar-43e95dd2ec3b3dce63db.js",
+      "path---categories-moar-43e95dd2ec3b3dce63db.js.map"
     ],
     "path---birch-in-the-roses": [
-      "path---birch-in-the-roses-6796c086ca0b10de3058.js",
-      "path---birch-in-the-roses-6796c086ca0b10de3058.js.map"
+      "path---birch-in-the-roses-e59f682eb35f8770be03.js",
+      "path---birch-in-the-roses-e59f682eb35f8770be03.js.map"
     ],
     "path---tags-testing": [
-      "path---tags-testing-f0ebf9db3fb98527b33e.js",
-      "path---tags-testing-f0ebf9db3fb98527b33e.js.map"
+      "path---tags-testing-e0c8d6a4f500108a0398.js",
+      "path---tags-testing-e0c8d6a4f500108a0398.js.map"
     ],
     "component---src-layouts-index-jsx": [
       "component---src-layouts-index-jsx-c790c422b7be3ae9bf4e.js",
       "component---src-layouts-index-jsx-c790c422b7be3ae9bf4e.js.map"
     ],
     "path---categories-test-3": [
-      "path---categories-test-3-bc769659536955f549d8.js",
-      "path---categories-test-3-bc769659536955f549d8.js.map"
+      "path---categories-test-3-28bb28126e178359f1fa.js",
+      "path---categories-test-3-28bb28126e178359f1fa.js.map"
     ],
     "path---categories-tech": [
-      "path---categories-tech-f72688daaf7ce5952ac1.js",
-      "path---categories-tech-f72688daaf7ce5952ac1.js.map"
+      "path---categories-tech-9aa53a6ff9386efbb824.js",
+      "path---categories-tech-9aa53a6ff9386efbb824.js.map"
+    ],
+    "cms": [
+      "cms-44f3de1b8a423b576291.js",
+      "cms.css",
+      "cms-44f3de1b8a423b576291.js.map",
+      "cms.css.map"
     ],
     "component---node-modules-gatsby-plugin-offline-app-shell-js": [
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
     ],
     "path---bold-mage": [
-      "path---bold-mage-645ddb8ba4a744be12f0.js",
-      "path---bold-mage-645ddb8ba4a744be12f0.js.map"
+      "path---bold-mage-75e5e6ef61c888db7977.js",
+      "path---bold-mage-75e5e6ef61c888db7977.js.map"
     ],
     "path---categories-something": [
-      "path---categories-something-3764f66f95e7418df19c.js",
-      "path---categories-something-3764f66f95e7418df19c.js.map"
+      "path---categories-something-e686964e844ea4c068d9.js",
+      "path---categories-something-e686964e844ea4c068d9.js.map"
     ],
     "path---tags-tag": [
-      "path---tags-tag-aadc3fd8b10e8cee7dd0.js",
-      "path---tags-tag-aadc3fd8b10e8cee7dd0.js.map"
+      "path---tags-tag-95682a7ce0f2436fc26a.js",
+      "path---tags-tag-95682a7ce0f2436fc26a.js.map"
     ],
     "component---src-templates-category-jsx": [
       "component---src-templates-category-jsx-31a313c9437cbfecae49.js",
       "component---src-templates-category-jsx-31a313c9437cbfecae49.js.map"
     ],
     "path---tags-gatsby": [
-      "path---tags-gatsby-39d5f59362cdf1f308e4.js",
-      "path---tags-gatsby-39d5f59362cdf1f308e4.js.map"
+      "path---tags-gatsby-dee967183a19c87c2a5d.js",
+      "path---tags-gatsby-dee967183a19c87c2a5d.js.map"
     ],
     "path---categories-another-one": [
-      "path---categories-another-one-01b44936451841a91c77.js",
-      "path---categories-another-one-01b44936451841a91c77.js.map"
+      "path---categories-another-one-21d7377b361328111df7.js",
+      "path---categories-another-one-21d7377b361328111df7.js.map"
     ],
     "path---tags-another-one": [
-      "path---tags-another-one-72bc3cbc9fd451b9c46b.js",
-      "path---tags-another-one-72bc3cbc9fd451b9c46b.js.map"
+      "path---tags-another-one-ebdcbc8602495e6b8005.js",
+      "path---tags-another-one-ebdcbc8602495e6b8005.js.map"
     ],
     "path---index": [
-      "path---index-3350ba37d71605b743c5.js",
-      "path---index-3350ba37d71605b743c5.js.map"
+      "path---index-7b19555ea42e0c1813ff.js",
+      "path---index-7b19555ea42e0c1813ff.js.map"
     ],
     "component---src-pages-about-jsx": [
       "component---src-pages-about-jsx-ad03a97f9d94d9bb3877.js",
       "component---src-pages-about-jsx-ad03a97f9d94d9bb3877.js.map"
     ],
     "path---big-sample-test": [
-      "path---big-sample-test-5cd5fa7ba9a7cc9de6f9.js",
-      "path---big-sample-test-5cd5fa7ba9a7cc9de6f9.js.map"
+      "path---big-sample-test-fb059bbaea815acb74da.js",
+      "path---big-sample-test-fb059bbaea815acb74da.js.map"
     ],
     "path---tags-tagging": [
-      "path---tags-tagging-16a6381df9e72a40dc4e.js",
-      "path---tags-tagging-16a6381df9e72a40dc4e.js.map"
+      "path---tags-tagging-8e1ad167262c8b5981a8.js",
+      "path---tags-tagging-8e1ad167262c8b5981a8.js.map"
     ],
     "commons": [
-      "commons-ee7d3af24c187fc74eeb.js",
+      "commons-0c81e1828738cdc21acd.js",
       "build-js-styles.css",
-      "commons-ee7d3af24c187fc74eeb.js.map",
+      "commons-0c81e1828738cdc21acd.js.map",
       "build-js-styles.css.map"
     ],
     "path---angels-of-mist": [
-      "path---angels-of-mist-f26d383bbcc3ff9284e7.js",
-      "path---angels-of-mist-f26d383bbcc3ff9284e7.js.map"
+      "path---angels-of-mist-084ec35691a7d98c5778.js",
+      "path---angels-of-mist-084ec35691a7d98c5778.js.map"
     ],
     "path---categories-gatsby": [
-      "path---categories-gatsby-54f83016d3d305bf5022.js",
-      "path---categories-gatsby-54f83016d3d305bf5022.js.map"
+      "path---categories-gatsby-8d1b6a1df263f02f70ef.js",
+      "path---categories-gatsby-8d1b6a1df263f02f70ef.js.map"
     ],
     "component---src-templates-tag-jsx": [
       "component---src-templates-tag-jsx-d4285dbbcd24424fb3a9.js",
       "component---src-templates-tag-jsx-d4285dbbcd24424fb3a9.js.map"
     ],
     "path---the-fairys-witches": [
-      "path---the-fairys-witches-cb242ada710c11c29997.js",
-      "path---the-fairys-witches-cb242ada710c11c29997.js.map"
+      "path---the-fairys-witches-64e3325c7beb75d6b18d.js",
+      "path---the-fairys-witches-64e3325c7beb75d6b18d.js.map"
     ],
     "path---categories-random": [
-      "path---categories-random-f052b370e0ca6deaa0b0.js",
-      "path---categories-random-f052b370e0ca6deaa0b0.js.map"
+      "path---categories-random-1baacb0c99adbef3a1e8.js",
+      "path---categories-random-1baacb0c99adbef3a1e8.js.map"
     ],
     "path---tags-material": [
-      "path---tags-material-cea41d1831f310a4cfba.js",
-      "path---tags-material-cea41d1831f310a4cfba.js.map"
+      "path---tags-material-e201de03d1d90cba8f19.js",
+      "path---tags-material-e201de03d1d90cba8f19.js.map"
     ],
     "path---offline-plugin-app-shell-fallback": [
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-templates-post-jsx": [
-      "component---src-templates-post-jsx-800d6a58bb1fe2a08767.js",
-      "component---src-templates-post-jsx-800d6a58bb1fe2a08767.js.map"
+      "component---src-templates-post-jsx-7d7cf20789dbbc36d7b5.js",
+      "component---src-templates-post-jsx-7d7cf20789dbbc36d7b5.js.map"
     ],
     "component---src-pages-index-jsx": [
-      "component---src-pages-index-jsx-4ade6060fb6f64127428.js",
-      "component---src-pages-index-jsx-4ade6060fb6f64127428.js.map"
+      "component---src-pages-index-jsx-28ee3bafeb70e14892c3.js",
+      "component---src-pages-index-jsx-28ee3bafeb70e14892c3.js.map"
     ],
     "path---tags-something": [
-      "path---tags-something-bfb18983cf6facb620b3.js",
-      "path---tags-something-bfb18983cf6facb620b3.js.map"
+      "path---tags-something-458c5b48aa5229b6f75e.js",
+      "path---tags-something-458c5b48aa5229b6f75e.js.map"
     ],
     "app": [
-      "app-2141da9c24f7a9b9d903.js",
+      "app-7d40b81af3e6c66b0b38.js",
       "build-js-styles.css",
-      "app-2141da9c24f7a9b9d903.js.map",
+      "app-7d40b81af3e6c66b0b38.js.map",
       "build-js-styles.css.map"
     ],
     "path---the-fallen-time": [
-      "path---the-fallen-time-56fb2c92dd8248cc8159.js",
-      "path---the-fallen-time-56fb2c92dd8248cc8159.js.map"
+      "path---the-fallen-time-ee46567a362c54c1aa1a.js",
+      "path---the-fallen-time-ee46567a362c54c1aa1a.js.map"
     ],
     "path---tags-say-hi": [
-      "path---tags-say-hi-4e06adce8b6121eee803.js",
-      "path---tags-say-hi-4e06adce8b6121eee803.js.map"
+      "path---tags-say-hi-b4976c16a049a9e2814f.js",
+      "path---tags-say-hi-b4976c16a049a9e2814f.js.map"
     ],
     "path---tags-huge": [
-      "path---tags-huge-2b43b44642fe8ab0f7a8.js",
-      "path---tags-huge-2b43b44642fe8ab0f7a8.js.map"
+      "path---tags-huge-382f09cb7d4fa24a7f3e.js",
+      "path---tags-huge-382f09cb7d4fa24a7f3e.js.map"
     ],
     "path---tags-test": [
-      "path---tags-test-0cc017fe5d2e19c09a98.js",
-      "path---tags-test-0cc017fe5d2e19c09a98.js.map"
+      "path---tags-test-b6bd77e167a1db9e412b.js",
+      "path---tags-test-b6bd77e167a1db9e412b.js.map"
     ],
     "path---tags-stuff": [
-      "path---tags-stuff-d9bc3513445a400d27c6.js",
-      "path---tags-stuff-d9bc3513445a400d27c6.js.map"
+      "path---tags-stuff-5f7e4bebc711be389e01.js",
+      "path---tags-stuff-5f7e4bebc711be389e01.js.map"
     ],
     "path---about": [
       "path---about-a0e39f21c11f6a62c5ab.js",
       "path---about-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---tags-starter": [
-      "path---tags-starter-1b449e879da8c366b693.js",
-      "path---tags-starter-1b449e879da8c366b693.js.map"
+      "path---tags-starter-fa932d5a0cb712ae0e16.js",
+      "path---tags-starter-fa932d5a0cb712ae0e16.js.map"
     ],
     "path---introducing-gatsby-material-starter": [
-      "path---introducing-gatsby-material-starter-822c878a5528a7006f2e.js",
-      "path---introducing-gatsby-material-starter-822c878a5528a7006f2e.js.map"
+      "path---introducing-gatsby-material-starter-1a2e19eff299514a59f5.js",
+      "path---introducing-gatsby-material-starter-1a2e19eff299514a59f5.js.map"
     ]
   }
 }
