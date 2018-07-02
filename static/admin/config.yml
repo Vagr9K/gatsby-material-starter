@@ -9,7 +9,7 @@ public_folder: assets
 collections:
   - name: blog
     label: "Post"
-    folder: "content/posts"
+    folder: "content"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}.md"
     fields:
