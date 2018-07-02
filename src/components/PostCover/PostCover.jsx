@@ -4,8 +4,8 @@ import "./PostCover.scss";
 
 class PostCover extends Component {
   render() {
-    const { fileEdges, postNode, mobile } = this.props;
-    const coverHeight = mobile ? 180 : 350;
+    const { fileEdges, postNode, coverHeight, coverClassName } = this.props;
+
     const post = postNode.frontmatter ? postNode.frontmatter : postNode;
     const coverNodeList = fileEdges.filter(fileNode => {
       if (fileNode.node.childImageSharp === null) return false;
@@ -19,7 +19,7 @@ class PostCover extends Component {
       return (
         <Img
           sizes={coverNodeList[0].node.childImageSharp.sizes}
-          outerWrapperClassName="md-grid md-cell--9 post-cover"
+          outerWrapperClassName={coverClassName}
           style={{ height: coverHeight, width: "100%" }}
         />
       );
@@ -36,7 +36,7 @@ class PostCover extends Component {
           backgroundImage: `url(${coverURL})`,
           height: `${coverHeight}px`
         }}
-        className="md-grid md-cell--9 post-cover"
+        className={coverClassName}
       />
     );
   }
