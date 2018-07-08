@@ -46,7 +46,6 @@ export default class PostTemplate extends React.Component {
     const { slug } = this.props.pageContext;
     const expanded = !mobile;
     const postOverlapClass = mobile ? "post-overlap-mobile" : "post-overlap";
-    const fileEdges = this.props.data.allFile.edges;
     const postNode = this.props.data.markdownRemark;
     const post = postNode.frontmatter;
     if (!post.id) {
@@ -69,7 +68,6 @@ export default class PostTemplate extends React.Component {
             postNode={postNode}
             coverHeight={coverHeight}
             coverClassName="md-grid md-cell--9 post-cover"
-            fileEdges={fileEdges}
           />
           <div
             className={`md-grid md-cell--9 post-page-contents mobile-fix ${postOverlapClass}`}
@@ -124,38 +122,6 @@ export const pageQuery = graphql`
         prevSlug
         slug
         date
-      }
-    }
-    allFile {
-      edges {
-        node {
-          id
-          absolutePath
-          childImageSharp {
-            id
-            resolutions {
-              base64
-              tracedSVG
-              aspectRatio
-              width
-              height
-              src
-              srcSet
-              srcWebp
-              srcSetWebp
-              originalName
-            }
-            internal {
-              contentDigest
-              type
-              owner
-            }
-            sizes(maxWidth: 1240) {
-              ...GatsbyImageSharpSizes
-              originalName
-            }
-          }
-        }
       }
     }
   }
