@@ -195,7 +195,7 @@ For NetlifyCMS specific issues visit the [official documentation](https://www.ne
 
 ## Theming
 
-Edit `src/layouts/theme.scss` to suit your needs.
+Edit `src/layout/theme.scss` to suit your needs.
 You can use [Material color palette](https://react-md.mlaursen.com/customization/colors) provided by React-MD.
 
 ```css
