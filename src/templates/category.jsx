@@ -1,6 +1,7 @@
 import React from "react";
 import Helmet from "react-helmet";
 import PostListing from "../components/PostListing/PostListing";
+import Layout from "../layout";
 import config from "../../data/SiteConfig";
 
 export default class CategoryTemplate extends React.Component {
@@ -9,18 +10,20 @@ export default class CategoryTemplate extends React.Component {
     const postEdges = this.props.data.allMarkdownRemark.edges;
     const fileEdges = this.props.data.allFile.edges;
     return (
-      <div className="category-container">
-        <Helmet>
-          <title>
-            {`Posts in category "${category}" | ${config.siteTitle}`}
-          </title>
-          <link
-            rel="canonical"
-            href={`${config.siteUrl}/categories/${category}`}
-          />
-        </Helmet>
-        <PostListing postEdges={postEdges} fileEdges={fileEdges} />
-      </div>
+      <Layout location={this.props.location}>
+        <div className="category-container">
+          <Helmet>
+            <title>
+              {`Posts in category "${category}" | ${config.siteTitle}`}
+            </title>
+            <link
+              rel="canonical"
+              href={`${config.siteUrl}/categories/${category}`}
+            />
+          </Helmet>
+          <PostListing postEdges={postEdges} fileEdges={fileEdges} />
+        </div>
+      </Layout>
     );
   }
 }

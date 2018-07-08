@@ -1,5 +1,6 @@
 import React from "react";
 import Helmet from "react-helmet";
+import Layout from "../layout";
 import PostListing from "../components/PostListing/PostListing";
 import config from "../../data/SiteConfig";
 
@@ -9,13 +10,15 @@ export default class TagTemplate extends React.Component {
     const postEdges = this.props.data.allMarkdownRemark.edges;
     const fileEdges = this.props.data.allFile.edges;
     return (
-      <div className="tag-container">
-        <Helmet>
-          <title>{`Posts tagged as "${tag}" | ${config.siteTitle}`}</title>
-          <link rel="canonical" href={`${config.siteUrl}/tags/${tag}`} />
-        </Helmet>
-        <PostListing postEdges={postEdges} fileEdges={fileEdges} />
-      </div>
+      <Layout location={this.props.location}>
+        <div className="tag-container">
+          <Helmet>
+            <title>{`Posts tagged as "${tag}" | ${config.siteTitle}`}</title>
+            <link rel="canonical" href={`${config.siteUrl}/tags/${tag}`} />
+          </Helmet>
+          <PostListing postEdges={postEdges} fileEdges={fileEdges} />
+        </div>
+      </Layout>
     );
   }
 }

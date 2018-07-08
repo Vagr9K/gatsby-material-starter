@@ -1,5 +1,6 @@
 import React from "react";
 import Helmet from "react-helmet";
+import Layout from "../layout";
 import PostListing from "../components/PostListing/PostListing";
 import SEO from "../components/SEO/SEO";
 import config from "../../data/SiteConfig";
@@ -9,14 +10,16 @@ class Index extends React.Component {
     const postEdges = this.props.data.allMarkdownRemark.edges;
     const fileEdges = this.props.data.allFile.edges;
     return (
-      <div className="index-container">
-        <Helmet>
-          <title>{config.siteTitle}</title>
-          <link rel="canonical" href={`${config.siteUrl}`} />
-        </Helmet>
-        <SEO postEdges={postEdges} />
-        <PostListing postEdges={postEdges} fileEdges={fileEdges} />
-      </div>
+      <Layout location={this.props.location}>
+        <div className="index-container">
+          <Helmet>
+            <title>{config.siteTitle}</title>
+            <link rel="canonical" href={`${config.siteUrl}`} />
+          </Helmet>
+          <SEO postEdges={postEdges} />
+          <PostListing postEdges={postEdges} fileEdges={fileEdges} />
+        </div>
+      </Layout>
     );
   }
 }
