@@ -1,5 +1,6 @@
 import React from "react";
 import Helmet from "react-helmet";
+import { graphql } from "gatsby";
 import PostListing from "../components/PostListing/PostListing";
 import Layout from "../layout";
 import config from "../../data/SiteConfig";
@@ -28,7 +29,6 @@ export default class CategoryTemplate extends React.Component {
   }
 }
 
-/* eslint no-undef: "off" */
 export const pageQuery = graphql`
   query CategoryPage($category: String) {
     allFile {

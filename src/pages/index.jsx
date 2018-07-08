@@ -1,5 +1,6 @@
 import React from "react";
 import Helmet from "react-helmet";
+import { graphql } from "gatsby";
 import Layout from "../layout";
 import PostListing from "../components/PostListing/PostListing";
 import SEO from "../components/SEO/SEO";
@@ -26,7 +27,6 @@ class Index extends React.Component {
 
 export default Index;
 
-/* eslint no-undef: "off" */
 export const pageQuery = graphql`
   query IndexQuery {
     allFile {
