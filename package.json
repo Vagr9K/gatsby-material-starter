@@ -8,7 +8,6 @@
     "font-awesome": "^4.7.0",
     "gatsby": "next",
     "gatsby-image": "next",
-    "gatsby-link": "next",
     "gatsby-plugin-catch-links": "next",
     "gatsby-plugin-feed": "next",
     "gatsby-plugin-google-analytics": "next",

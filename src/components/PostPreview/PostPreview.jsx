@@ -5,7 +5,7 @@ import Button from "react-md/lib/Buttons";
 import Avatar from "react-md/lib/Avatars";
 import CardText from "react-md/lib/Cards/CardText";
 import FontIcon from "react-md/lib/FontIcons";
-import Link from "gatsby-link";
+import Link from "gatsby";
 import moment from "moment";
 import Media, { MediaOverlay } from "react-md/lib/Media";
 import PostTags from "../PostTags/PostTags";
