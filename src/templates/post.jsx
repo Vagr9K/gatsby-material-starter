@@ -43,7 +43,7 @@ export default class PostTemplate extends React.Component {
 
   render() {
     const { mobile } = this.state;
-    const { slug } = this.props.pathContext;
+    const { slug } = this.props.pageContext;
     const expanded = !mobile;
     const postOverlapClass = mobile ? "post-overlap-mobile" : "post-overlap";
     const fileEdges = this.props.data.allFile.edges;
