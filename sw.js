@@ -37,7 +37,7 @@
 /* eslint-disable indent, no-unused-vars, no-multiple-empty-lines, max-nested-callbacks, space-before-function-paren, quotes, comma-spacing */
 'use strict';
 
-var precacheConfig = [["/gatsby-material-starter/app-7d40b81af3e6c66b0b38.js","c599e99404712aab422f8f574571b0ba"],["/gatsby-material-starter/commons-0c81e1828738cdc21acd.js","d61403a71440d057e996cfd7b11c93e0"],["/gatsby-material-starter/index.html","e38696dab51451d7ce6e88a1f3568e1a"],["/gatsby-material-starter/offline-plugin-app-shell-fallback/index.html","aa1d4671a7988454dc599e54e11e57f4"]];
+var precacheConfig = [["/gatsby-material-starter/app-d369326a3aee8b8f6211.js","ff978db09f3c674968e6501b43e1a67b"],["/gatsby-material-starter/component---node-modules-gatsby-plugin-offline-app-shell-js-57ca353a6dd2e8e0a4ac.js","7667b8230ac65597f63c6b10f48f3f14"],["/gatsby-material-starter/index.html","02f7eb3447543ec8cfefcd31dc3abc16"],["/gatsby-material-starter/manifest.webmanifest","2c6844454393bec03b0b093e2f52ae60"],["/gatsby-material-starter/offline-plugin-app-shell-fallback/index.html","3c660d7964d4f066d4ce084e4d7e0a3b"],["/gatsby-material-starter/webpack-runtime-54f050b054ded93ae098.js","d8dffe6707d834f64eb74b56c526b4fe"]];
 var cacheName = 'sw-precache-v3-gatsby-plugin-offline-' + (self.registration ? self.registration.scope : '');
 
 
@@ -135,7 +135,7 @@ var urlsToCacheKeys = new Map(
     var relativeUrl = item[0];
     var hash = item[1];
     var absoluteUrl = new URL(relativeUrl, self.location);
-    var cacheKey = createCacheKey(absoluteUrl, hashParamName, hash, /(.\w{8}.woff2)/);
+    var cacheKey = createCacheKey(absoluteUrl, hashParamName, hash, /(.*js$|\/static\/)/);
     return [absoluteUrl.toString(), cacheKey];
   })
 );

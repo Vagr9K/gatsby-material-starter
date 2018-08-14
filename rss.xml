@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Material Starter]]></title><description><![CDATA[A GatsbyJS stater with Material design in mind.]]></description><link>https://vagr9k.github.io/gatsby-material-starter</link><image><url>https://vagr9k.github.io/gatsby-material-starter/logos/logo-512.png</url><title>Gatsby Material Starter</title><link>https://vagr9k.github.io/gatsby-material-starter</link></image><generator>GatsbyJS Material Starter</generator><lastBuildDate>Mon, 02 Jul 2018 23:21:29 GMT</lastBuildDate><atom:link href="https://vagr9k.github.io/gatsby-material-starter/rss.xml" rel="self" type="application/rss+xml"/><author><![CDATA[Material User]]></author><copyright><![CDATA[Copyright © 2017. Material User]]></copyright><item><title><![CDATA[Introducing Gatsby Material Starter]]></title><description><![CDATA[Not so long ago, this project got ported to v1 version of GatsbyJS. And now, it's super exciting for me to announce the   version of  ! You…]]></description><link>https://vagr9k.github.io/gatsby-material-starter/introducing-gatsby-material-starter</link><guid isPermaLink="false">https://vagr9k.github.io/gatsby-material-starter/introducing-gatsby-material-starter</guid><category><![CDATA[gatsby]]></category><category><![CDATA[material]]></category><category><![CDATA[starter]]></category><dc:creator><![CDATA[Material User]]></dc:creator><pubDate>Mon, 02 Jul 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Not so long ago, this project got ported to v1 version of GatsbyJS.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Material Starter]]></title><description><![CDATA[A GatsbyJS stater with Material design in mind.]]></description><link>https://vagr9k.github.io/gatsby-material-starter</link><image><url>https://vagr9k.github.io/gatsby-material-starter/logos/logo-512.png</url><title>Gatsby Material Starter</title><link>https://vagr9k.github.io/gatsby-material-starter</link></image><generator>GatsbyJS Material Starter</generator><lastBuildDate>Tue, 14 Aug 2018 22:50:48 GMT</lastBuildDate><atom:link href="https://vagr9k.github.io/gatsby-material-starter/rss.xml" rel="self" type="application/rss+xml"/><author><![CDATA[Material User]]></author><copyright><![CDATA[Copyright © 2017. Material User]]></copyright><item><title><![CDATA[Introducing Gatsby Material Starter]]></title><description><![CDATA[Around a year ago, this project was one of the first ones ported to the   version of GatsbyJS. And now, it's super exciting for me to…]]></description><link>https://vagr9k.github.io/gatsby-material-starter/introducing-gatsby-material-starter</link><guid isPermaLink="false">https://vagr9k.github.io/gatsby-material-starter/introducing-gatsby-material-starter</guid><category><![CDATA[gatsby]]></category><category><![CDATA[material]]></category><category><![CDATA[starter]]></category><dc:creator><![CDATA[Material User]]></dc:creator><pubDate>Mon, 02 Jul 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Around a year ago, this project was one of the first ones ported to the &lt;code class=&quot;language-text&quot;&gt;v1&lt;/code&gt; version of GatsbyJS.&lt;/p&gt;
 &lt;blockquote class=&quot;twitter-tweet&quot; data-lang=&quot;en&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Great news! Gatsby Material starter is now based on stable V1 of &lt;a href=&quot;https://twitter.com/gatsbyjs&quot;&gt;@gatsbyjs&lt;/a&gt;!&lt;a href=&quot;https://t.co/P2JqNbcRmk&quot;&gt;https://t.co/P2JqNbcRmk&lt;/a&gt;&lt;/p&gt;&amp;mdash; Ruben Harutyunyan (@Vagr9K) &lt;a href=&quot;https://twitter.com/Vagr9K/status/883073085963993089&quot;&gt;July 6, 2017&lt;/a&gt;&lt;/blockquote&gt;
-&lt;p&gt;And now, it&apos;s super exciting for me to announce the &lt;code class=&quot;language-text&quot;&gt;v1.2&lt;/code&gt; version of &lt;code class=&quot;language-text&quot;&gt;Gatsby Material Starter&lt;/code&gt;!&lt;/p&gt;
+&lt;p&gt;And now, it&apos;s super exciting for me to announce the &lt;code class=&quot;language-text&quot;&gt;v2&lt;/code&gt; version of &lt;code class=&quot;language-text&quot;&gt;Gatsby Material Starter&lt;/code&gt; with the support of the newest Gatsby v2 features!&lt;/p&gt;
 &lt;p&gt;You can also visit &lt;a href=&quot;https://vagr9k.me&quot;&gt;my personal blog&lt;/a&gt; if you want to see a fully implemented blog based on this starter.&lt;/p&gt;
 &lt;p&gt;New features are:&lt;/p&gt;
 &lt;ul&gt;
@@ -138,7 +138,7 @@
 &lt;a href=&quot;#videos&quot;&gt;YouTube Videos&lt;/a&gt;&lt;/p&gt;
 &lt;a name=&quot;headers&quot;/&gt;
 &lt;h2 id=&quot;headers&quot;&gt;&lt;a href=&quot;#headers&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Headers&lt;/h2&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;no-highlight&quot;&gt;
       &lt;pre class=&quot;language-no-highlight&quot;&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;# H1
 ## H2
 ### H3
@@ -165,7 +165,7 @@ Alt-H2
 &lt;h2 id=&quot;alt-h2&quot;&gt;&lt;a href=&quot;#alt-h2&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Alt-H2&lt;/h2&gt;
 &lt;a name=&quot;emphasis&quot;/&gt;
 &lt;h2 id=&quot;emphasis&quot;&gt;&lt;a href=&quot;#emphasis&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Emphasis&lt;/h2&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;no-highlight&quot;&gt;
       &lt;pre class=&quot;language-no-highlight&quot;&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;Emphasis, aka italics, with *asterisks* or _underscores_.
 
 Strong emphasis, aka bold, with **asterisks** or __underscores__.
@@ -180,7 +180,7 @@ Strikethrough uses two tildes. ~~Scratch this.~~&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Strikethrough uses two tildes. &lt;del&gt;Scratch this.&lt;/del&gt;&lt;/p&gt;
 &lt;a name=&quot;lists&quot;/&gt;
 &lt;h2 id=&quot;lists&quot;&gt;&lt;a href=&quot;#lists&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Lists&lt;/h2&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;no-highlight&quot;&gt;
       &lt;pre class=&quot;language-no-highlight&quot;&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;1. First ordered list item
 2. Another item
   * Unordered sub-list.
@@ -227,7 +227,7 @@ Strikethrough uses two tildes. ~~Scratch this.~~&lt;/code&gt;&lt;/pre&gt;
 &lt;a name=&quot;links&quot;/&gt;
 &lt;h2 id=&quot;links&quot;&gt;&lt;a href=&quot;#links&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Links&lt;/h2&gt;
 &lt;p&gt;There are two ways to create links.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;no-highlight&quot;&gt;
       &lt;pre class=&quot;language-no-highlight&quot;&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;[I&amp;#39;m an inline-style link](https://www.google.com)
 
 [I&amp;#39;m a reference-style link][Arbitrary case-insensitive reference text]
@@ -256,7 +256,7 @@ example.com (but not on Github, for example).&lt;/p&gt;
 &lt;p&gt;Some text to show that the reference links can follow later.&lt;/p&gt;
 &lt;a name=&quot;images&quot;/&gt;
 &lt;h2 id=&quot;images&quot;&gt;&lt;a href=&quot;#images&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Images&lt;/h2&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;no-highlight&quot;&gt;
       &lt;pre class=&quot;language-no-highlight&quot;&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;Here&amp;#39;s our logo (hover to see the title text):
 
 Inline-style:
@@ -275,7 +275,7 @@ Reference-style:
 &lt;a name=&quot;code&quot;/&gt;
 &lt;h2 id=&quot;code-and-syntax-highlighting&quot;&gt;&lt;a href=&quot;#code-and-syntax-highlighting&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Code and Syntax Highlighting&lt;/h2&gt;
 &lt;p&gt;Code blocks are part of the Markdown spec, but syntax highlighting isn&apos;t. However, many renderers -- like Github&apos;s and &lt;em&gt;Markdown Here&lt;/em&gt; -- support syntax highlighting. &lt;em&gt;Markdown Here&lt;/em&gt; supports highlighting for dozens of languages (and not-really-languages, like diffs and HTTP headers); to see the complete list, and how to write the language names, see the &lt;a href=&quot;http://softwaremaniacs.org/media/soft/highlight/test.html&quot;&gt;highlight.js demo page&lt;/a&gt;.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;no-highlight&quot;&gt;
       &lt;pre class=&quot;language-no-highlight&quot;&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;Inline `code` has `back-ticks around` it.&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
 &lt;p&gt;Inline &lt;code class=&quot;language-text&quot;&gt;code&lt;/code&gt; has &lt;code class=&quot;language-text&quot;&gt;back-ticks around&lt;/code&gt; it.&lt;/p&gt;
@@ -295,15 +295,15 @@ No language indicated, so no syntax highlighting.
 But let&apos;s throw in a &amp;lt;b&amp;gt;tag&amp;lt;/b&amp;gt;.
 ```
 &lt;/code&gt;&lt;/pre&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;
       &lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; s &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;JavaScript syntax highlighting&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 &lt;span class=&quot;token function&quot;&gt;alert&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;s&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;
       &lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;s &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Python syntax highlighting&quot;&lt;/span&gt;
 &lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt; s&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;
       &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;No language indicated, so no syntax highlighting in Markdown Here (varies on Github).
 But let&amp;#39;s throw in a &amp;lt;b&amp;gt;tag&amp;lt;/b&amp;gt;.&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
@@ -311,7 +311,7 @@ But let&amp;#39;s throw in a &amp;lt;b&amp;gt;tag&amp;lt;/b&amp;gt;.&lt;/code&gt
 &lt;a name=&quot;tables&quot;/&gt;
 &lt;h2 id=&quot;tables&quot;&gt;&lt;a href=&quot;#tables&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tables&lt;/h2&gt;
 &lt;p&gt;Tables aren&apos;t part of the core Markdown spec, but they are part of GFM and &lt;em&gt;Markdown Here&lt;/em&gt; supports them. They are an easy way of adding tables to your email -- a task that would otherwise require copy-pasting from another application.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;no-highlight&quot;&gt;
       &lt;pre class=&quot;language-no-highlight&quot;&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;Colons can be used to align columns.
 
 | Tables        | Are           | Cool  |
@@ -378,7 +378,7 @@ The outer pipes (|) are optional, and you don&amp;#39;t need to make the raw Mar
 &lt;/table&gt;
 &lt;a name=&quot;blockquotes&quot;/&gt;
 &lt;h2 id=&quot;blockquotes&quot;&gt;&lt;a href=&quot;#blockquotes&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Blockquotes&lt;/h2&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;no-highlight&quot;&gt;
       &lt;pre class=&quot;language-no-highlight&quot;&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;&amp;gt; Blockquotes are very handy in email to emulate reply text.
 &amp;gt; This line is part of the same quote.
 
@@ -397,7 +397,7 @@ This line is part of the same quote.&lt;/p&gt;
 &lt;a name=&quot;html&quot;/&gt;
 &lt;h2 id=&quot;inline-html&quot;&gt;&lt;a href=&quot;#inline-html&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Inline HTML&lt;/h2&gt;
 &lt;p&gt;You can also use raw HTML in your Markdown, and it&apos;ll mostly work pretty well.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;no-highlight&quot;&gt;
       &lt;pre class=&quot;language-no-highlight&quot;&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;&amp;lt;dl&amp;gt;
   &amp;lt;dt&amp;gt;Definition list&amp;lt;/dt&amp;gt;
   &amp;lt;dd&amp;gt;Is something people use sometimes.&amp;lt;/dd&amp;gt;
@@ -414,7 +414,7 @@ This line is part of the same quote.&lt;/p&gt;
 &lt;/dl&gt;
 &lt;a name=&quot;hr&quot;/&gt;
 &lt;h2 id=&quot;horizontal-rule&quot;&gt;&lt;a href=&quot;#horizontal-rule&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Horizontal Rule&lt;/h2&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;
       &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Three or more...
 
 ---
@@ -440,7 +440,7 @@ Underscores&lt;/code&gt;&lt;/pre&gt;
 &lt;h2 id=&quot;line-breaks&quot;&gt;&lt;a href=&quot;#line-breaks&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Line Breaks&lt;/h2&gt;
 &lt;p&gt;My basic recommendation for learning how line breaks work is to experiment and discover -- hit &amp;#x3C;Enter&gt; once (i.e., insert one newline), then hit it twice (i.e., insert two newlines), see what happens. You&apos;ll soon learn to get what you want. &quot;Markdown Toggle&quot; is your friend.&lt;/p&gt;
 &lt;p&gt;Here are some things to try out:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;
       &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Here&amp;#39;s a line for us to start with.
 
 This line is separated from the one above by two newlines, so it will be a *separate paragraph*.
@@ -456,13 +456,13 @@ This line is only separated by a single newline, so it&apos;s a separate line in
 &lt;a name=&quot;videos&quot;/&gt;
 &lt;h2 id=&quot;youtube-videos&quot;&gt;&lt;a href=&quot;#youtube-videos&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;YouTube Videos&lt;/h2&gt;
 &lt;p&gt;They can&apos;t be added directly but you can add an image with a link to the video like this:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;no-highlight&quot;&gt;
       &lt;pre class=&quot;language-no-highlight&quot;&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;&amp;lt;a href=&amp;quot;http://www.youtube.com/watch?feature=player_embedded&amp;amp;v=8AkLfYOgIrE
 &amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;&amp;lt;img src=&amp;quot;http://img.youtube.com/vi/8AkLfYOgIrE/0.jpg&amp;quot;
 alt=&amp;quot;IMAGE ALT TEXT HERE&amp;quot; width=&amp;quot;240&amp;quot; height=&amp;quot;180&amp;quot; border=&amp;quot;10&amp;quot; /&amp;gt;&amp;lt;/a&amp;gt;&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
 &lt;p&gt;Or, in pure Markdown, but losing the image sizing and border:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;no-highlight&quot;&gt;
       &lt;pre class=&quot;language-no-highlight&quot;&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;</content:encoded></item><item><title><![CDATA[The Fairy's Witches]]></title><description><![CDATA[Eram mora tuas in inter ferens caterva Ait oculos Lorem markdownum. Dedit caput, saxa lenis adhibere negarunt substiterat et ab
 testes…]]></description><link>https://vagr9k.github.io/gatsby-material-starter/the-fairys-witches</link><guid isPermaLink="false">https://vagr9k.github.io/gatsby-material-starter/the-fairys-witches</guid><dc:creator><![CDATA[Material User]]></dc:creator><pubDate>Sun, 02 Apr 2017 00:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;eram-mora-tuas-in-inter-ferens-caterva&quot;&gt;&lt;a href=&quot;#eram-mora-tuas-in-inter-ferens-caterva&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Eram mora tuas in inter ferens caterva&lt;/h1&gt;
@@ -589,7 +589,7 @@ cerno&lt;/em&gt;. Creatos plangente voluptas est nomen opes: nequeo ullus; accip
 mollibus carmen. &lt;a href=&quot;http://esse-sertis.net/&quot;&gt;Contigerant&lt;/a&gt; haec Antium latebris
 manus quamquam Erigdupum virgultis debes. Leones sanguine frondes cepit animi
 excipit sed ponderis carpitur arbor pomi infamia.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;
       &lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;subdirectory&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;video_backlink_jquery &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; plug_d&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;upSku&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;nuiMini&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;spyware&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 property &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; hard &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;tracerouteNetCrop&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;multi&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; xp_byte&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; software_wheel_readme&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;username&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;prebinding&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;kbps&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
@@ -675,7 +675,7 @@ inter Cynthia est gemitu crimina sis, et preces cuncta tamen?&lt;/p&gt;</content
 &lt;h2 id=&quot;hoc-domum-solitos-veteremque-nostrum&quot;&gt;&lt;a href=&quot;#hoc-domum-solitos-veteremque-nostrum&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Hoc domum solitos veteremque nostrum&lt;/h2&gt;
 &lt;p&gt;Lorem markdownum huc suo ara, dubites celeri mihi bicolor. Secuti non? Suo opus
 quales dant, puppim hanc!&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;
       &lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;enterprise &lt;span class=&quot;token operator&quot;&gt;/=&lt;/span&gt; mp_operating_quad&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 dsl_runtime&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;wired_horizontal_jquery &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;vramUs&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;64389&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; aix &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt; socialSector &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; quad&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
@@ -709,7 +709,7 @@ praebentem tanto dubiis anguiferumque. Fata vidit &lt;a href=&quot;http://nare.i
 mirere&lt;/a&gt; serpentibus tibi propositumque vestes capillis
 natalibus, fitque! Verba Siphnon, arcanaque vicina, Cycnum mox suos coniunx
 ebrius.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;java&quot;&gt;
       &lt;pre class=&quot;language-java&quot;&gt;&lt;code class=&quot;language-java&quot;&gt;    &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;hsf&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; artMetalMeme&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;yottabytePrimary&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;circuit&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
         saas&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;backbone &lt;span class=&quot;token operator&quot;&gt;+=&lt;/span&gt; netmaskUtf&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
     &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
@@ -744,7 +744,7 @@ animalia praeceps Meleagre greges venisse corpore et ignara, umquam ipse? Quam
 Alis genas rudis felix quas &lt;strong&gt;longum&lt;/strong&gt; suorum manu ante prima &lt;strong&gt;usque&lt;/strong&gt;. Nec pro
 mea pariter, ictus iam consequitur capillos elegit ego; quoniam &lt;strong&gt;fuit&lt;/strong&gt;. Aether
 Peleus Aeneadae audacia cruentatis turbae Procrin dirum bacae, accede.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;php&quot;&gt;
       &lt;pre class=&quot;language-php&quot;&gt;&lt;code class=&quot;language-php&quot;&gt;    urlLinkedin&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;midi_manet &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;namespace&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;backsideKilobitBezel&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
     &lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; ddr &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; storage_wordart_sdram&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
     python&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;raw_backlink &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; rfid_load &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
@@ -759,7 +759,7 @@ vulneribus nostrae mollire erant ferrum habet loquiturque precibus expersque
 quam etiamnunc. Puraque &lt;a href=&quot;http://mihi-aiax.io/suaferunt.aspx&quot;&gt;repetitque&lt;/a&gt;,
 funestaque crebros mihi conubia matres insopitumque residunt rogat ponto canos
 ergo firmat albentia verba casuque.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;perl&quot;&gt;
       &lt;pre class=&quot;language-perl&quot;&gt;&lt;code class=&quot;language-perl&quot;&gt;    &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;lion_vdu &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; vrml_upnp &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt; redundancyAccessPharming&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
         driveProcessor &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; floatingWord&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;commerceDockRestore&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;database&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
     &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
