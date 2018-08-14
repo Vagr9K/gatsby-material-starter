@@ -22,6 +22,7 @@ module.exports = {
   },
   plugins: [
     "gatsby-plugin-react-helmet",
+    "gatsby-plugin-lodash",
     "gatsby-plugin-sass",
     {
       resolve: "gatsby-source-filesystem",
@@ -42,7 +43,7 @@ module.exports = {
       options: {
         plugins: [
           {
-            resolve: `gatsby-remark-relative-images`
+            resolve: "gatsby-remark-relative-images"
           },
           {
             resolve: "gatsby-remark-images",
