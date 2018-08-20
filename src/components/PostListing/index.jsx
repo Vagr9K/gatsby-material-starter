@@ -1,5 +1,5 @@
 import React from "react";
-import PostPreview from "../PostPreview/PostPreview";
+import PostPreview from "../PostPreview";
 
 class PostListing extends React.Component {
   getPostList() {
