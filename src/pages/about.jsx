@@ -7,7 +7,7 @@ import config from "../../data/SiteConfig";
 class AboutPage extends Component {
   render() {
     return (
-      <Layout location={this.props.location}>
+      <Layout location={this.props.location} title="About">
         <div className="about-container">
           <Helmet>
             <title>{`About | ${config.siteTitle}`}</title>
