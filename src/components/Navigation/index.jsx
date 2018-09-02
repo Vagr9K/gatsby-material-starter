@@ -7,11 +7,14 @@ import "./Navigation.scss";
 
 class Navigation extends Component {
   render() {
-    const { children, LocalTitle, siteTitle, userLinks, footerLinks } = this.props;
+    const {
+      children,
+      userLinks
+    } = this.props;
     return (
       <NavigationDrawer
-        drawerTitle={siteTitle}
-        toolbarTitle={LocalTitle}
+        drawerTitle={this.props.siteTitle}
+        toolbarTitle={this.props.LocalTitle}
         contentClassName="main-content"
         navItems={GetNavList(userLinks)}
         mobileDrawerType={NavigationDrawer.DrawerTypes.TEMPORARY}
@@ -20,7 +23,7 @@ class Navigation extends Component {
         toolbarActions={<ToolbarActions config={userLinks} />}
       >
         <div className="main-container">{children}</div>
-        <Footer userLinks={footerLinks} />
+        <Footer {...this.props} userLinks={this.props.footerLinks} />
       </NavigationDrawer>
     );
   }
