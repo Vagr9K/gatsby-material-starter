@@ -15,7 +15,7 @@ class Footer extends Component {
     }
     return (
       <footer className={fixedFooter ? "footer footer-fixed" : "footer"}>
-        {userLinks ? <UserLinks config={config} labeled /> : null}
+        <UserLinks userLinks={userLinks} labeled />
         <div className="notice-container">
           <div className="copyright">
             <h4>{copyright}</h4>
