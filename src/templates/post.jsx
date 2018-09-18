@@ -1,6 +1,7 @@
 import React from "react";
 import Helmet from "react-helmet";
 import { graphql } from "gatsby";
+import urljoin from "url-join";
 import Card from "react-md/lib/Cards";
 import CardText from "react-md/lib/Cards/CardText";
 import Layout from "../layout";
@@ -15,6 +16,7 @@ import SEO from "../components/SEO";
 import config from "../../data/SiteConfig";
 import "./b16-tomorrow-dark.css";
 import "./post.scss";
+import {transformConfig, transformPost} from '../utils/jsonld';
 
 export default class PostTemplate extends React.Component {
   constructor(props) {
@@ -54,7 +56,11 @@ export default class PostTemplate extends React.Component {
     if (!post.category_id) {
       post.category_id = config.postDefaultCategoryID;
     }
-
+    const description = post.description ? post.description : postNode.excerpt
+    const blogURL = urljoin(config.siteUrl, config.pathPrefix)
+    const postURL = urljoin(config.siteUrl, config.pathPrefix, slug)
+    const schemaOrgJSONLD = transformConfig(config);
+    schemaOrgJSONLD.push(transformPost(postURL, post, description, blogURL, config.siteTitleAlt))
     const coverHeight = mobile ? 180 : 350;
     return (
       <Layout location={this.props.location}>
@@ -63,7 +69,16 @@ export default class PostTemplate extends React.Component {
             <title>{`${post.title} | ${config.siteTitle}`}</title>
             <link rel="canonical" href={`${config.siteUrl}${post.id}`} />
           </Helmet>
-          <SEO postPath={slug} postNode={postNode} postSEO />
+          <SEO
+            url={postURL}
+            title={post.title}
+            description={description}
+            image={post.cover}
+            schemaOrgJSONLD={schemaOrgJSONLD}
+            type="article"
+            siteFBAppID={config.siteFBAppID}
+            userTwitter={config.userTwitter}
+          />
           <PostCover
             postNode={postNode}
             coverHeight={coverHeight}
@@ -84,6 +99,7 @@ export default class PostTemplate extends React.Component {
                   postPath={slug}
                   postNode={postNode}
                   mobile={this.state.mobile}
+                  url={postURL}
                 />
               </div>
             </Card>
@@ -92,7 +108,12 @@ export default class PostTemplate extends React.Component {
               config={config}
               expanded={expanded}
             />
-            <Disqus postNode={postNode} expanded={expanded} />
+            <Disqus
+              post={postNode.frontmatter}
+              expanded={expanded}
+              url={postURL}
+              disqusShortName={config.disqusShortname}
+            />
           </div>
 
           <PostSuggestions postNode={postNode} />

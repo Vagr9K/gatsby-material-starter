@@ -1,13 +1,11 @@
 import React, { Component } from "react";
 import ReactDisqusComments from "react-disqus-comments";
-import urljoin from "url-join";
 import Card from "react-md/lib/Cards/Card";
 import CardTitle from "react-md/lib/Cards/CardTitle";
 import CardText from "react-md/lib/Cards/CardText";
 import Avatar from "react-md/lib/Avatars";
 import FontIcon from "react-md/lib/FontIcons";
 import Snackbar from "react-md/lib/Snackbars";
-import config from "../../../data/SiteConfig";
 
 class Disqus extends Component {
   constructor(props) {
@@ -23,22 +21,18 @@ class Disqus extends Component {
     const [, ...toasts] = this.state.toasts;
     this.setState({ toasts });
   }
+
   notifyAboutComment() {
     const toasts = this.state.toasts.slice();
     toasts.push({ text: "New comment available!" });
     this.setState({ toasts });
   }
+
   render() {
-    const { postNode, expanded } = this.props;
-    if (!config.disqusShortname) {
+    const { post, expanded, url, disqusShortName} = this.props;
+    if (!disqusShortName) {
       return null;
     }
-    const post = postNode.frontmatter;
-    const url = urljoin(
-      config.siteUrl,
-      config.pathPrefix,
-      postNode.fields.slug
-    );
 
     return (
       <Card className="md-grid md-cell md-cell--12">
@@ -49,7 +43,7 @@ class Disqus extends Component {
         />
         <CardText expandable={!expanded}>
           <ReactDisqusComments
-            shortname={config.disqusShortname}
+            shortname={disqusShortName}
             identifier={post.title}
             title={post.title}
             url={url}

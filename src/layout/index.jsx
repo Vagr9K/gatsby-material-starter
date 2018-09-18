@@ -9,8 +9,9 @@ import "./global.scss";
 export default class MainLayout extends React.Component {
   render() {
     const { children } = this.props;
+    const footerLinks = this.props.hideUserLinksFooter ? null : config.userLinks
     return (
-      <Navigation config={config} LocalTitle={this.props.title}>
+      <Navigation {...config} LocalTitle={this.props.title} footerLinks={footerLinks}>
         <div>
           <Helmet>
             <meta name="description" content={config.siteDescription} />
