@@ -18,7 +18,7 @@ A blog starter with Material design in mind for [Gatsby](https://github.com/gats
 
 This starter is based on GatsbyJS V2, which brings progressive web app features such as automatic code and data splitting (by route), prefetching, with service worker/offline-first support and PRPL pattern.
 
-More information in the [announcement](https://www.gatsbyjs.org/blog/2018-06-16-announcing-gatsby-v2-beta-launch/).
+More information in the [announcement](https://www.gatsbyjs.org/blog/2018-09-17-gatsby-v2/).
 
 NOTE: You can access the v1 version of the starter via the [`v1` branch](https://github.com/Vagr9K/gatsby-material-starter/tree/v1).
 
