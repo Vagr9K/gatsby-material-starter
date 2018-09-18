@@ -1,0 +1,1 @@
+.about-wrapper{align-items:center;display:flex;flex-direction:column}.about-wrapper .about-img{border-radius:50%;height:300px;margin:10px 0;width:300px}@media (max-width:359px){.about-wrapper .about-img{padding:20px}}.about-wrapper .about-text{margin:20px 0!important;max-width:640px}@media (max-width:359px){.about-wrapper .about-text{margin:5px 0!important}}
