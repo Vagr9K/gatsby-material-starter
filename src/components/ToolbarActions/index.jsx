@@ -4,11 +4,11 @@ import "./ToolbarActions.scss";
 
 class Toolbar extends Component {
   render() {
-    const { config } = this.props;
+    const { userLinks } = this.props;
     return (
       <div className="toolbar-actions">
         <div className="userlinks-container">
-          <UserLinks config={config} />
+          <UserLinks userLinks={userLinks} />
         </div>
       </div>
     );

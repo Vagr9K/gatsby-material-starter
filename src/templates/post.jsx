@@ -1,6 +1,7 @@
 import React from "react";
 import Helmet from "react-helmet";
 import { graphql } from "gatsby";
+import urljoin from "url-join";
 import Card from "react-md/lib/Cards";
 import CardText from "react-md/lib/Cards/CardText";
 import Layout from "../layout";
@@ -84,6 +85,7 @@ export default class PostTemplate extends React.Component {
                   postPath={slug}
                   postNode={postNode}
                   mobile={this.state.mobile}
+                  url={urljoin(config.siteUrl, config.pathPrefix, slug)}
                 />
               </div>
             </Card>
