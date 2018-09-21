@@ -5,6 +5,7 @@ import Layout from "../layout";
 import PostListing from "../components/PostListing";
 import SEO from "../components/SEO";
 import config from "../../data/SiteConfig";
+import {transformConfig} from "../utils/jsonld"
 
 class Index extends React.Component {
   render() {
@@ -16,7 +17,11 @@ class Index extends React.Component {
             <title>{config.siteTitle}</title>
             <link rel="canonical" href={`${config.siteUrl}`} />
           </Helmet>
-          <SEO postEdges={postEdges} />
+          <SEO
+            schemaOrgJSONLD={transformConfig(config)}
+            postEdges={postEdges}
+            type="website"
+          />
           <PostListing postEdges={postEdges} />
         </div>
       </Layout>
