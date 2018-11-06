@@ -47,7 +47,7 @@ NOTE: You can access the v1 version of the starter via the [`v1` branch](https:/
   - Embedded YouTube videos
   - Embedded Tweets
 - Tags
-  - Seprate page for posts under each tag
+  - Separate page for posts under each tag
 - Categories
   - Separate page for posts under each category
 - Suggested posts segment
