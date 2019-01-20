@@ -1,10 +1,10 @@
-const config = require("./data/SiteConfig");
 const urljoin = require("url-join");
+const config = require("./data/SiteConfig");
 
 const regexExcludeRobots = /^(?!\/(dev-404-page|404|offline-plugin-app-shell-fallback|tags|categories)).*$/;
 
 module.exports = {
-  pathPrefix: config.pathPrefix,
+  pathPrefix: config.pathPrefix === "" ? "/" : config.pathPrefix,
   siteMetadata: {
     siteUrl: urljoin(config.siteUrl, config.pathPrefix),
     rssMetadata: {
