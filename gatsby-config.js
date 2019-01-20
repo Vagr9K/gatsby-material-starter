@@ -1,10 +1,10 @@
-const config = require("./data/SiteConfig");
 const urljoin = require("url-join");
+const config = require("./data/SiteConfig");
 
 const regexExcludeRobots = /^(?!\/(dev-404-page|404|offline-plugin-app-shell-fallback|tags|categories)).*$/;
 
 module.exports = {
-  pathPrefix: config.pathPrefix,
+  pathPrefix: config.pathPrefix === "" ? "/" : config.pathPrefix,
   siteMetadata: {
     siteUrl: urljoin(config.siteUrl, config.pathPrefix),
     rssMetadata: {
@@ -16,7 +16,6 @@ module.exports = {
         config.siteUrl,
         config.pathPrefix
       )}/logos/logo-512.png`,
-      author: config.userName,
       copyright: config.copyright
     }
   },
@@ -149,7 +148,6 @@ module.exports = {
                 title
                 description
                 image_url
-                author
                 copyright
               }
             }
@@ -165,10 +163,12 @@ module.exports = {
                 date: edge.node.frontmatter.date,
                 title: edge.node.frontmatter.title,
                 description: edge.node.excerpt,
-                author: rssMetadata.author,
                 url: rssMetadata.site_url + edge.node.fields.slug,
                 guid: rssMetadata.site_url + edge.node.fields.slug,
-                custom_elements: [{ "content:encoded": edge.node.html }]
+                custom_elements: [
+                  { "content:encoded": edge.node.html },
+                  { author: config.userEmail }
+                ]
               }));
             },
             query: `
