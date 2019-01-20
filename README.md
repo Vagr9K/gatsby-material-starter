@@ -163,7 +163,7 @@ module.exports = {
       iconClassName: "fa fa-envelope"
     }
   ],
-  copyright: "Copyright © 2017. Material User" // Copyright string for the footer of the website and RSS feed.
+  copyright: "Copyright © 2019. Material User" // Copyright string for the footer of the website and RSS feed.
 };
 ```
 
