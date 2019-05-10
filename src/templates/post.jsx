@@ -45,11 +45,10 @@ export default class PostTemplate extends React.Component {
   render() {
     const { mobile } = this.state;
     const { location, pageContext } = this.props;
-    const { slug } = pageContext;
+    const { slug, nexttitle, nextslug, prevtitle, prevslug } = pageContext;
     const expanded = !mobile;
     const postOverlapClass = mobile ? "post-overlap-mobile" : "post-overlap";
     const postNode = this.props.data.markdownRemark;
-    const { nextTitle, nextSlug, prevTitle, prevSlug } = postNode.fields;
     const post = postNode.frontmatter;
 
     if (!post.id) {
@@ -100,10 +99,10 @@ export default class PostTemplate extends React.Component {
           </div>
 
           <PostSuggestions
-            prevSlug={prevSlug}
-            prevTitle={prevTitle}
-            nextSlug={nextSlug}
-            nextTitle={nextTitle}
+            prevSlug={prevslug}
+            prevTitle={prevtitle}
+            nextSlug={nextslug}
+            nextTitle={nexttitle}
           />
         </div>
       </Layout>
@@ -125,10 +124,6 @@ export const pageQuery = graphql`
         tags
       }
       fields {
-        nextTitle
-        nextSlug
-        prevTitle
-        prevSlug
         slug
         date
       }
