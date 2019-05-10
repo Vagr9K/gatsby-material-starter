@@ -5,11 +5,11 @@ import "./PostSuggestions.scss";
 
 export default class PostSuggestions extends Component {
   render() {
-    const { postNode } = this.props;
-    const postFields = postNode.fields;
+    const { prevSlug, prevTitle, nextSlug, nextTitle } = this.props;
+
     return (
       <div className="post-suggestions md-grid md-cell--12">
-        <Link to={postFields.prevSlug} className="post-suggestion">
+        <Link to={prevSlug} className="post-suggestion">
           <FontIcon
             forceFontSize
             forceSize={64}
@@ -19,17 +19,13 @@ export default class PostSuggestions extends Component {
           </FontIcon>
           <div className="headline-container hide-on-mobile">
             <h2 className="md-body-2 secondary-color">Previous</h2>
-            <h6 className="md-headline secondary-color">
-              {postFields.prevTitle}
-            </h6>
+            <h6 className="md-headline secondary-color">{prevTitle}</h6>
           </div>
         </Link>
-        <Link to={postFields.nextSlug} className="post-suggestion">
+        <Link to={nextSlug} className="post-suggestion">
           <div className="headline-container">
             <h2 className="md-body-2 secondary-color">Next</h2>
-            <h6 className="md-headline secondary-color">
-              {postFields.nextTitle}
-            </h6>
+            <h6 className="md-headline secondary-color">{nextTitle}</h6>
           </div>
           <FontIcon
             forceFontSize

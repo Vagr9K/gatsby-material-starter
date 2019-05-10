@@ -24,6 +24,7 @@ export default class PostTemplate extends React.Component {
     };
     this.handleResize = this.handleResize.bind(this);
   }
+
   componentDidMount() {
     this.handleResize();
     window.addEventListener("resize", this.handleResize);
@@ -43,11 +44,14 @@ export default class PostTemplate extends React.Component {
 
   render() {
     const { mobile } = this.state;
-    const { slug } = this.props.pageContext;
+    const { location, pageContext } = this.props;
+    const { slug } = pageContext;
     const expanded = !mobile;
     const postOverlapClass = mobile ? "post-overlap-mobile" : "post-overlap";
     const postNode = this.props.data.markdownRemark;
+    const { nextTitle, nextSlug, prevTitle, prevSlug } = postNode.fields;
     const post = postNode.frontmatter;
+
     if (!post.id) {
       post.id = slug;
     }
@@ -57,7 +61,7 @@ export default class PostTemplate extends React.Component {
 
     const coverHeight = mobile ? 180 : 350;
     return (
-      <Layout location={this.props.location}>
+      <Layout location={location}>
         <div className="post-page md-grid md-grid--no-spacing">
           <Helmet>
             <title>{`${post.title} | ${config.siteTitle}`}</title>
@@ -83,7 +87,7 @@ export default class PostTemplate extends React.Component {
                 <SocialLinks
                   postPath={slug}
                   postNode={postNode}
-                  mobile={this.state.mobile}
+                  mobile={mobile}
                 />
               </div>
             </Card>
@@ -95,7 +99,12 @@ export default class PostTemplate extends React.Component {
             <Disqus postNode={postNode} expanded={expanded} />
           </div>
 
-          <PostSuggestions postNode={postNode} />
+          <PostSuggestions
+            prevSlug={prevSlug}
+            prevTitle={prevTitle}
+            nextSlug={nextSlug}
+            nextTitle={nextTitle}
+          />
         </div>
       </Layout>
     );
