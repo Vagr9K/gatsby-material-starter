@@ -54,9 +54,6 @@ export default class PostTemplate extends React.Component {
     if (!post.id) {
       post.id = slug;
     }
-    if (!post.category_id) {
-      post.category_id = config.postDefaultCategoryID;
-    }
 
     const coverHeight = mobile ? 180 : 350;
     return (
