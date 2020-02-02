@@ -1,19 +1,15 @@
 import React, { Component } from "react";
 import {
   FacebookShareButton,
-  GooglePlusShareButton,
   LinkedinShareButton,
   TwitterShareButton,
   TelegramShareButton,
   RedditShareButton,
   FacebookShareCount,
-  GooglePlusShareCount,
-  LinkedinShareCount,
   RedditShareCount,
   FacebookIcon,
   TwitterIcon,
   TelegramIcon,
-  GooglePlusIcon,
   LinkedinIcon,
   RedditIcon
 } from "react-share";
@@ -43,12 +39,6 @@ class SocialLinks extends Component {
         <TwitterShareButton url={url} title={post.title}>
           <TwitterIcon round size={iconSize} />
         </TwitterShareButton>
-        <GooglePlusShareButton url={url}>
-          <GooglePlusIcon round size={iconSize} />
-          <GooglePlusShareCount url={url}>
-            {count => renderShareCount(count)}
-          </GooglePlusShareCount>
-        </GooglePlusShareButton>
         <FacebookShareButton url={url} quote={postNode.excerpt}>
           <FacebookIcon round size={iconSize} />
           <FacebookShareCount url={url}>
@@ -61,9 +51,6 @@ class SocialLinks extends Component {
           description={postNode.excerpt}
         >
           <LinkedinIcon round size={iconSize} />
-          <LinkedinShareCount url={url}>
-            {count => renderShareCount(count)}
-          </LinkedinShareCount>
         </LinkedinShareButton>
         <TelegramShareButton url={url}>
           <TelegramIcon round size={iconSize} />
