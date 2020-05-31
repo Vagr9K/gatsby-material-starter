@@ -26,20 +26,20 @@ const config = {
     {
       label: "GitHub",
       url: "https://github.com/Vagr9K/gatsby-material-starter",
-      iconClassName: "fa fa-github"
+      iconClassName: "fa fa-github",
     },
     {
       label: "Twitter",
       url: "https://twitter.com/Vagr9K",
-      iconClassName: "fa fa-twitter"
+      iconClassName: "fa fa-twitter",
     },
     {
       label: "Email",
       url: "mailto:vagr9k@gmail.com",
-      iconClassName: "fa fa-envelope"
-    }
+      iconClassName: "fa fa-envelope",
+    },
   ],
-  copyright: "Copyright © 2019. Material User" // Copyright string for the footer of the website and RSS feed.
+  copyright: "Copyright © 2020. Material User", // Copyright string for the footer of the website and RSS feed.
 };
 
 // Validate
