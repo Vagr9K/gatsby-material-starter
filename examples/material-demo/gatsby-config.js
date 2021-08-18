@@ -129,10 +129,12 @@ module.exports = {
         //   },
         // ],
         website: {
+          title: "Gatsby Material Blog",
+          titleShort: "Material Blog",
           fbAppId: "1825356251115265",
           twitterName: "Vagr9K",
           url: "https://material-demo.netlify.com",
-          googleAnalyticsId: "UA-47311644-5",
+          googleAnalyticsId: "UA-47311644-4",
           copyright: "© Copyright 2021 | Ruben Harutyunyan",
           disqusShortname: "https-vagr9k-github-io-gatsby-material-starter",
           logoUrl: "/logos/logo.png",

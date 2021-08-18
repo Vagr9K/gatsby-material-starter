@@ -20,7 +20,8 @@ describe(`Post page`, () => {
   });
 
   it("renders the post info", () => {
-    cy.get("p").contains("⋅ Aug 1, 2021 ⋅ 3 min read");
+    cy.get("span").contains("Aug 1, 2021");
+    cy.get("span").contains("3 min read");
 
     cy.get("main").then((container) => {
       cy.findByRole("link", { name: "tech", container }).should(
