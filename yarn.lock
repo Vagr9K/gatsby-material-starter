@@ -10900,6 +10900,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"eslint-plugin-cypress@npm:^2.11.3":
+  version: 2.11.3
+  resolution: "eslint-plugin-cypress@npm:2.11.3"
+  dependencies:
+    globals: ^11.12.0
+  peerDependencies:
+    eslint: ">= 3.2.1"
+  checksum: 793286f62a7e7b748c686cdc7607499c6aa5d5bdf6106a1d131bd053ac93bfa6f61c58630a0c0631f47f62306b1f7f70f2344dfe7e44733d107b6247bddef67e
+  languageName: node
+  linkType: hard
+
 "eslint-plugin-flowtype@npm:^5.3.1":
   version: 5.6.0
   resolution: "eslint-plugin-flowtype@npm:5.6.0"
@@ -13284,6 +13295,7 @@ fsevents@^1.2.7:
     eslint-config-airbnb: ^18.2.1
     eslint-config-airbnb-typescript: ^12.3.1
     eslint-config-prettier: ^8.3.0
+    eslint-plugin-cypress: ^2.11.3
     eslint-plugin-import: ^2.23.4
     eslint-plugin-jest: ^24.4.0
     eslint-plugin-jest-dom: ^3.9.0
@@ -13426,6 +13438,7 @@ fsevents@^1.2.7:
     eslint-config-airbnb: ^18.2.1
     eslint-config-airbnb-typescript: ^12.3.1
     eslint-config-prettier: ^8.3.0
+    eslint-plugin-cypress: ^2.11.3
     eslint-plugin-import: ^2.23.4
     eslint-plugin-jest: ^24.4.0
     eslint-plugin-jest-dom: ^3.9.0
@@ -14222,7 +14235,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"globals@npm:^11.1.0":
+"globals@npm:^11.1.0, globals@npm:^11.12.0":
   version: 11.12.0
   resolution: "globals@npm:11.12.0"
   checksum: 67051a45eca3db904aee189dfc7cd53c20c7d881679c93f6146ddd4c9f4ab2268e68a919df740d39c71f4445d2b38ee360fc234428baea1dbdfe68bbcb46979e
