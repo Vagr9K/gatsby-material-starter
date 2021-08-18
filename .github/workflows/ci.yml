@@ -1,0 +1,62 @@
+name: Continuous Integration
+on: [push]
+jobs:
+  static-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '16'
+          cache: 'yarn'
+      - run: yarn install
+      - run: yarn lint:all
+
+  type-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '16'
+          cache: 'yarn'
+      - run: yarn install
+      - run: yarn type-check
+
+  jest-tests:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        project: [".", "./themes/material"]
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '16'
+          cache: 'yarn'
+      - run: yarn install
+      - name: Run unit and integration tests
+        working-directory: ${{ matrix.project }}
+        run: yarn test
+
+  e2e-tests:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        project: [".", "./examples/material-demo"]
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '16'
+          cache: 'yarn'
+      - run: yarn install
+      - name: Run E2E tests
+        uses: cypress-io/github-action@v2
+        with:
+          working-directory: ${{ matrix.project }}
+          build: yarn build
+          start: yarn serve
+          browser: chrome
+        env:
+          CYPRESS_SUPPORT: "y"
