@@ -5,8 +5,6 @@ import {
   ThemeOptions,
 } from "@material-ui/core/styles";
 
-import Typography from "./Typography";
-
 import CssReset from "./CssReset";
 
 declare module "@material-ui/core/styles" {
@@ -46,7 +44,7 @@ type ThemeProps = {
 const ThemeProvider = ({ children }: ThemeProps): JSX.Element => (
   <MuiThemeProvider theme={createTheme(themeOptions)}>
     <CssReset />
-    <Typography />
+
     {children}
   </MuiThemeProvider>
 );
