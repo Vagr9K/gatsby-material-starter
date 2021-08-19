@@ -1,0 +1,2 @@
+(self.webpackChunkgatsby_theme_material_demo=self.webpackChunkgatsby_theme_material_demo||[]).push([[127],{5196:function(t,e,a){"use strict";a.r(e);a(2784);var u=a(9299),l=a(8082),i=a(5514),n=a(2373);e.default=function(){var t=(0,l.ZR)();return(0,n.tZ)(i.Z,null,(0,n.tZ)(u.q,{title:"About | "+t.website.title}))}}}]);
+//# sourceMappingURL=component---themes-material-src-pages-about-tsx-2b4bd65d35bfa31df24f.js.map
