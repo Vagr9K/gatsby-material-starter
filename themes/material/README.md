@@ -30,7 +30,7 @@ The theme uses [`gatsby-theme-advanced`](https://www.npmjs.com/package/gatsby-th
 
 ## Previews
 
-![Amaranth Preview](./docs/material-demo.png)
+![Material Preview](./docs/material-demo.png)
 
 [Material Demo](https://gatsby-theme-material.netlify.app/).
 
