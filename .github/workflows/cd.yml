@@ -1,0 +1,63 @@
+name: Continuous Deployment
+
+on:
+  workflow_run:
+    workflows: ["Continuous Integration"]
+    branches: [master]
+    types: [completed]
+
+jobs:
+  netlify-deploy:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        include:
+          - workdir: "./examples/material-demo"
+            siteId: MATERIAL_DEMO_SITE_ID
+            projectName: Material Demo
+
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '16'
+          cache: 'yarn'
+      - run: yarn install
+      - run: yarn build
+        working-directory: ${{ matrix.workdir }}
+      - name: Deploy to Netlify
+        uses: nwtgck/actions-netlify@v1.2
+        with:
+          deploy-message: Automated CD deploy
+          publish-dir: ${{ matrix.workdir }}/public
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          github-deployment-environment: ${{ matrix.projectName }} Netlify Deploy
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets[matrix.siteId] }}
+        timeout-minutes: 1
+
+
+  upload-material-coverage:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        include:
+          - workdir: "./themes/material"
+            projectName: Material
+
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '16'
+          cache: 'yarn'
+      - run: yarn install
+      - run: yarn test
+        working-directory: ${{ matrix.workdir }}
+      - name: Upload coverage report to Coveralls
+        uses: coverallsapp/github-action@master
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          base-path: themes/material
+          path-to-lcov: themes/material/coverage/lcov.info
