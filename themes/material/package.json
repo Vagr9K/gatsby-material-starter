@@ -30,7 +30,7 @@
     "gatsby-plugin-feed": "^3.11.0",
     "gatsby-plugin-google-gtag": "^3.11.0",
     "gatsby-plugin-image": "^1.11.0",
-    "gatsby-plugin-lodash": "^4.11.0",
+    "gatsby-plugin-lodash": "^4.12.0",
     "gatsby-plugin-manifest": "^3.11.0",
     "gatsby-plugin-mdx": "^2.11.0",
     "gatsby-plugin-netlify-cms": "^5.11.0",
