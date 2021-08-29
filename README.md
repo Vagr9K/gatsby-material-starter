@@ -35,7 +35,7 @@ This starter aims to provide a minimal base for building advanced GatsbyJS power
 
 Starter supports both [TypeScript](https://www.typescriptlang.org/) and JavaScript, comes with [Jest](https://jestjs.io/) and [Cypress](https://www.cypress.io/) configurations and allows you to write Unit/Integration/E2E tests out of the box.
 
-The starter uses [`gatsby-theme-advanced`](https://www.npmjs.com/package/gatsby-theme-advanced) under the hood.
+The starter uses [`gatsby-theme-advanced`](https://www.npmjs.com/package/gatsby-theme-advanced) under the hood and is based on the [Gatsby Advanced Starter](https://github.com/Vagr9K/gatsby-advanced-starter).
 
 ## Demo
 
