@@ -1,8 +1,8 @@
 {
   "private": true,
   "workspaces": [
-    "themes/*",
-    "examples/*"
+    "themes/material",
+    "examples/material-demo"
   ],
   "name": "gatsby-starter-material",
   "description": "GatsbyJS starter that includes examples for advanced use cases.",
@@ -46,7 +46,7 @@
   "dependencies": {
     "gatsby": "^3.11.0",
     "gatsby-plugin-styled-components": "^4.11.0",
-    "gatsby-theme-material": "workspace:*",
+    "gatsby-theme-material": "*",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-query": "^3.19.2"
