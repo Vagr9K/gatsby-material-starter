@@ -1,11 +1,11 @@
 import React from "react";
 
-import { Stack, SvgIcon, IconButton } from "@material-ui/core";
-import EmailIcon from "@material-ui/icons/Email";
-import LinkedInIcon from "@material-ui/icons/LinkedIn";
-import GitHubIcon from "@material-ui/icons/GitHub";
-import RssFeedIcon from "@material-ui/icons/RssFeed";
-import TwitterIcon from "@material-ui/icons/Twitter";
+import { Stack, SvgIcon, IconButton } from "@mui/material";
+import EmailIcon from "@mui/icons-material/Email";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import RssFeedIcon from "@mui/icons-material/RssFeed";
+import TwitterIcon from "@mui/icons-material/Twitter";
 
 import { Types, useConfig } from "gatsby-theme-advanced";
 

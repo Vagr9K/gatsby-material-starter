@@ -2,7 +2,7 @@ import React from "react";
 
 import { Types } from "gatsby-theme-advanced";
 
-import { Chip, Stack } from "@material-ui/core";
+import { Chip, Stack } from "@mui/material";
 
 import Link from "../Link";
 

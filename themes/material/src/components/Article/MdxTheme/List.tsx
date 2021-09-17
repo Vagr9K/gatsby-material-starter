@@ -2,7 +2,7 @@ import React from "react";
 import styled from "@emotion/styled";
 import { css } from "@emotion/react";
 
-import { Typography } from "@material-ui/core";
+import { Typography } from "@mui/material";
 
 import { ExtendingWrapper } from "../Spacing";
 

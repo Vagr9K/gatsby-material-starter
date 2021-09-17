@@ -1,6 +1,6 @@
 import * as React from "react";
 
-import { Box, Stack } from "@material-ui/core";
+import { Box, Stack } from "@mui/material";
 
 import { Types } from "gatsby-theme-advanced";
 

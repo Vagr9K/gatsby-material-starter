@@ -6,12 +6,12 @@ import {
   Typography,
   Snackbar,
   Divider,
-} from "@material-ui/core";
-import TwitterIcon from "@material-ui/icons/Twitter";
-import LinkedInIcon from "@material-ui/icons/LinkedIn";
-import FacebookIcon from "@material-ui/icons/Facebook";
-import RedditIcon from "@material-ui/icons/Reddit";
-import LinkIcon from "@material-ui/icons/Link";
+} from "@mui/material";
+import TwitterIcon from "@mui/icons-material/Twitter";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import FacebookIcon from "@mui/icons-material/Facebook";
+import RedditIcon from "@mui/icons-material/Reddit";
+import LinkIcon from "@mui/icons-material/Link";
 
 import {
   FacebookShareButton,

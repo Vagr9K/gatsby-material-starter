@@ -3,8 +3,8 @@ import styled from "@emotion/styled";
 
 import { getImage, IGatsbyImageData, GatsbyImage } from "gatsby-plugin-image";
 
-import { Typography, Card, Button, Box, Stack } from "@material-ui/core";
-import LaunchIcon from "@material-ui/icons/Launch";
+import { Typography, Card, Button, Box, Stack } from "@mui/material";
+import LaunchIcon from "@mui/icons-material/Launch";
 
 import { Types } from "gatsby-theme-advanced";
 

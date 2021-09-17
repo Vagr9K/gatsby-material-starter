@@ -2,13 +2,7 @@ import React from "react";
 
 import { useConfig } from "gatsby-theme-advanced";
 
-import {
-  AppBar,
-  Toolbar,
-  IconButton,
-  Typography,
-  Box,
-} from "@material-ui/core";
+import { AppBar, Toolbar, IconButton, Typography, Box } from "@mui/material";
 
 import Link from "../Link";
 import LayoutWidthContainer from "../shared/LayoutWidthContainer";

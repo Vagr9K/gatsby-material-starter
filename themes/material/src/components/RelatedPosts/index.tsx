@@ -1,5 +1,5 @@
 import React from "react";
-import { Stack, Typography } from "@material-ui/core";
+import { Stack, Typography } from "@mui/material";
 
 import { Types } from "gatsby-theme-advanced";
 

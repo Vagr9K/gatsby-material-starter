@@ -1,8 +1,8 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 
-import { visuallyHidden } from "@material-ui/utils";
-import { Typography } from "@material-ui/core";
+import { visuallyHidden } from "@mui/utils";
+import { Typography } from "@mui/material";
 
 import {
   useConfig,
