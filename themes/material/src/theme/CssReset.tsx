@@ -1,7 +1,7 @@
 import React from "react";
 import { Global, css } from "@emotion/react";
 
-import { CssBaseline } from "@material-ui/core";
+import { CssBaseline } from "@mui/material";
 
 const CssResetStyle = css`
   html {

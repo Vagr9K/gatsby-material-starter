@@ -2,7 +2,7 @@ import React from "react";
 
 import { useMatch } from "@reach/router";
 
-import { Tabs, Tab } from "@material-ui/core";
+import { Tabs, Tab } from "@mui/material";
 
 import Link, { LinkProps } from "../Link";
 

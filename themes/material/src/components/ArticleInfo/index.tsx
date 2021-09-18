@@ -3,9 +3,9 @@ import { format } from "date-fns";
 
 import { Types } from "gatsby-theme-advanced";
 
-import { Stack, Typography, Button } from "@material-ui/core";
-import CategoryIcon from "@material-ui/icons/Category";
-import EventNoteIcon from "@material-ui/icons/EventNote";
+import { Stack, Typography, Button } from "@mui/material";
+import CategoryIcon from "@mui/icons-material/Category";
+import EventNoteIcon from "@mui/icons-material/EventNote";
 
 import Link from "../Link";
 

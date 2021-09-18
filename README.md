@@ -138,13 +138,13 @@ Second option simplifies your CI/CD setup and allows you to receive updates by s
 To switch to the remote version, open `package.json` and edit the dependency section:
 
 ```js
- "gatsby-theme-material": "workspace:*",
+ "gatsby-theme-material": "*",
 ```
 
 into
 
 ```js
- "gatsby-theme-material": "3.0.0", // Or the version you want
+ "gatsby-theme-material": "3.1.0", // Or the version you want
 ```
 
 ## Configuration

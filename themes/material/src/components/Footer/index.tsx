@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Typography, Stack, Link } from "@material-ui/core";
+import { Typography, Stack, Link } from "@mui/material";
 
 import { useConfig } from "gatsby-theme-advanced";
 

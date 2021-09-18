@@ -3,11 +3,11 @@ import {
   createTheme,
   ThemeProvider as MuiThemeProvider,
   ThemeOptions,
-} from "@material-ui/core/styles";
+} from "@mui/material/styles";
 
 import CssReset from "./CssReset";
 
-declare module "@material-ui/core/styles" {
+declare module "@mui/material/styles" {
   interface BreakpointOverrides {
     zero: true;
     xs: false;

@@ -1,7 +1,7 @@
 import React from "react";
 import { css, Global } from "@emotion/react";
 
-import { Link as MaterialLink, Divider } from "@material-ui/core";
+import { Link as MaterialLink, Divider } from "@mui/material";
 
 import { Image as ArticleImage, ArticleImageSpacing } from "../Image";
 import SharedImage from "../../shared/Image";

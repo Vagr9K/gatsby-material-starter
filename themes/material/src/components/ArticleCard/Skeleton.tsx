@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "@emotion/styled";
 
-import { Card, Skeleton, Stack } from "@material-ui/core";
+import { Card, Skeleton, Stack } from "@mui/material";
 
 const Cover = styled(Skeleton)`
   border-radius: 4px;

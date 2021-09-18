@@ -2,7 +2,7 @@ import React from "react";
 
 import { useConfig } from "gatsby-theme-advanced";
 
-import { Typography, Paper, Avatar } from "@material-ui/core";
+import { Typography, Paper, Avatar } from "@mui/material";
 
 import UserLinks from "../UserLinks";
 

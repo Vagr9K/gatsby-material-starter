@@ -1,3 +1,4 @@
+// eslint-disable-next-line import/no-extraneous-dependencies
 import "@emotion/core";
 
 export { default as Article } from "./Article";
