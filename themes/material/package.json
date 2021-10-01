@@ -94,7 +94,7 @@
     "@types/remove-markdown": "^0.3.1",
     "@types/url-join": "^4.0.1",
     "@typescript-eslint/eslint-plugin": "^4.31.1",
-    "babel-jest": "^27.2.0",
+    "babel-jest": "^27.2.4",
     "babel-preset-gatsby": "^1.14.0",
     "cli-glob": "^0.1.0",
     "clone-deep": "^4.0.1",
