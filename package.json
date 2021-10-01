@@ -44,7 +44,7 @@
     "write-good": "write-good $(glob 'content/**/*.md')"
   },
   "dependencies": {
-    "gatsby": "^3.14.0",
+    "gatsby": "^3.14.1",
     "gatsby-plugin-styled-components": "^4.14.0",
     "gatsby-theme-material": "*",
     "react": "^17.0.2",
