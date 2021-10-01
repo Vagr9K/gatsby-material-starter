@@ -61,7 +61,7 @@
     "prismjs": "^1.25.0",
     "react-color": "^2.19.3",
     "react-helmet": "^6.1.0",
-    "react-query": "^3.23.2",
+    "react-query": "^3.24.5",
     "react-share": "^4.4.0",
     "react-twitter-widgets": "^1.10.0",
     "remark-codesandbox": "^0.10.0",
