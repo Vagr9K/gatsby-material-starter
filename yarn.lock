@@ -8381,7 +8381,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"date-fns@npm:^2.14.0, date-fns@npm:^2.24.0":
+"date-fns@npm:^2.14.0":
   version: 2.24.0
   resolution: "date-fns@npm:2.24.0"
   checksum: f930419e356cf6a6a02c7ed6c6e438df61b4011861002a3dc94a4efc83bc96a7f30ea3cc2e7231c421604c3d5131f9ffb097bf8e7f81a59d68f556864490664f
@@ -11200,34 +11200,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-plugin-image@npm:^1.14.0":
-  version: 1.14.0
-  resolution: "gatsby-plugin-image@npm:1.14.0"
-  dependencies:
-    "@babel/code-frame": ^7.14.0
-    "@babel/parser": ^7.15.5
-    "@babel/runtime": ^7.15.4
-    "@babel/traverse": ^7.15.4
-    babel-jsx-utils: ^1.1.0
-    babel-plugin-remove-graphql-queries: ^3.14.0
-    camelcase: ^5.3.1
-    chokidar: ^3.5.2
-    common-tags: ^1.8.0
-    fs-extra: ^10.0.0
-    gatsby-core-utils: ^2.14.0
-    objectFitPolyfill: ^2.3.5
-    prop-types: ^15.7.2
-  peerDependencies:
-    "@babel/core": ^7.12.3
-    gatsby: ^3.0.0-next.0
-    gatsby-plugin-sharp: ^3.0.0-next.0
-    gatsby-source-filesystem: ^3.0.0-next.0
-    react: ^16.9.0 || ^17.0.0
-    react-dom: ^16.9.0 || ^17.0.0
-  checksum: 5baae1f601a3eef04cfc2bca3ceb4a8ee798fc0faecbbb1de807d0dc6039a0bd53267ad94396b6253289bf837b808c83a08aa4b1af550c823c8c04ce159b7e14
-  languageName: node
-  linkType: hard
-
 "gatsby-plugin-image@npm:^1.14.1":
   version: 1.14.1
   resolution: "gatsby-plugin-image@npm:1.14.1"
@@ -11429,34 +11401,6 @@ __metadata:
   peerDependencies:
     gatsby: ^3.0.0 || ^2.0.0
   checksum: 0a0ab9acf86932530995ddfe258e1bb2708e34e69daa6803371e1eb3a846c05544601a37958423f0bbbf30c1a39ab95c1d31462b90ad61c3348677f12f67169b
-  languageName: node
-  linkType: hard
-
-"gatsby-plugin-sharp@npm:^3.14.0":
-  version: 3.14.0
-  resolution: "gatsby-plugin-sharp@npm:3.14.0"
-  dependencies:
-    "@babel/runtime": ^7.15.4
-    async: ^3.2.1
-    bluebird: ^3.7.2
-    filenamify: ^4.3.0
-    fs-extra: ^10.0.0
-    gatsby-core-utils: ^2.14.0
-    gatsby-plugin-utils: ^1.14.0
-    gatsby-telemetry: ^2.14.0
-    got: ^11.8.2
-    lodash: ^4.17.21
-    mini-svg-data-uri: ^1.3.3
-    potrace: ^2.1.8
-    probe-image-size: ^6.0.0
-    progress: ^2.0.3
-    semver: ^7.3.5
-    sharp: ^0.29.0
-    svgo: 1.3.2
-    uuid: 3.4.0
-  peerDependencies:
-    gatsby: ^3.0.0-next.0
-  checksum: f34984940e2c6feea9771453697b0bccf044ae5a988137e0c8584f69d60cb9ba824cc6f8afcba0fb55c5ed665623ad86733dfd1961adcb00f22e9e576aa4f124
   languageName: node
   linkType: hard
 
@@ -11865,15 +11809,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-theme-advanced@npm:^3.3.0":
-  version: 3.3.0
-  resolution: "gatsby-theme-advanced@npm:3.3.0"
+"gatsby-theme-advanced@npm:^3.4.0":
+  version: 3.4.0
+  resolution: "gatsby-theme-advanced@npm:3.4.0"
   dependencies:
     "@fec/remark-a11y-emoji": ^3.1.0
     "@mdx-js/mdx": ^1.6.22
     "@mdx-js/react": ^1.6.22
     "@types/mdx-js__react": ^1.5.4
-    date-fns: ^2.24.0
+    date-fns: ^2.25.0
     eslint-plugin-graphql: ^4.0.0
     gatsby-image: ^3.11.0
     gatsby-plugin-catch-links: ^3.14.0
@@ -11881,7 +11825,7 @@ __metadata:
     gatsby-plugin-disqus: ^1.2.3
     gatsby-plugin-feed: ^3.14.0
     gatsby-plugin-google-gtag: ^3.14.0
-    gatsby-plugin-image: ^1.14.0
+    gatsby-plugin-image: ^1.14.1
     gatsby-plugin-lodash: ^4.14.0
     gatsby-plugin-manifest: ^3.14.0
     gatsby-plugin-mdx: ^2.14.0
@@ -11891,7 +11835,7 @@ __metadata:
     gatsby-plugin-page-creator: ^3.14.0
     gatsby-plugin-react-helmet: ^4.14.0
     gatsby-plugin-react-svg: ^3.0.1
-    gatsby-plugin-sharp: ^3.14.0
+    gatsby-plugin-sharp: ^3.14.1
     gatsby-plugin-sitemap: ^4.10.0
     gatsby-plugin-twitter: ^3.14.0
     gatsby-remark-autolink-headers: ^4.11.0
@@ -11907,12 +11851,12 @@ __metadata:
     is-absolute-url: ^3.0.3
     lodash: ^4.17.21
     moment: ^2.29.1
-    netlify-cms-app: ^2.15.44
+    netlify-cms-app: ^2.15.49
     prism-themes: ^1.9.0
     prismjs: ^1.25.0
     react-color: ^2.19.3
     react-helmet: ^6.1.0
-    react-query: ^3.23.2
+    react-query: ^3.26.0
     react-share: ^4.4.0
     react-twitter-widgets: ^1.10.0
     remark-codesandbox: ^0.10.0
@@ -11926,7 +11870,7 @@ __metadata:
     gatsby: ^3.8.1
     react: ^17.0.2
     react-dom: ^17.0.2
-  checksum: 53ae161a5d6ad66a3a94563f7f794ae4192e6c5b8a5e8aaeede40db544c0f6790a517c4cf6cf3518575374b639e0863220bdc097fa90cd9efe55db1a9f18a570
+  checksum: a05d43628b4fe0939bd7956f6eb740e3f7ce6b8258dd4b36ab55523843d926ee36a699dd8b95089456e443f93525bfbae1f151a7beb59c622bca90a6ae8a955c
   languageName: node
   linkType: hard
 
@@ -12067,7 +12011,7 @@ __metadata:
     gatsby-remark-relative-images: ^2.0.2
     gatsby-remark-responsive-iframe: ^4.11.0
     gatsby-source-filesystem: ^3.14.0
-    gatsby-theme-advanced: ^3.3.0
+    gatsby-theme-advanced: ^3.4.0
     gatsby-transformer-remark: ^4.11.0
     gatsby-transformer-sharp: ^3.14.0
     gh-pages: ^3.2.3
@@ -17933,56 +17877,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"netlify-cms-app@npm:^2.15.44":
-  version: 2.15.44
-  resolution: "netlify-cms-app@npm:2.15.44"
-  dependencies:
-    "@emotion/core": ^10.0.35
-    "@emotion/styled": ^10.0.27
-    codemirror: ^5.46.0
-    immutable: ^3.7.6
-    lodash: ^4.17.11
-    moment: ^2.24.0
-    netlify-cms-backend-azure: ^1.2.2
-    netlify-cms-backend-bitbucket: ^2.13.3
-    netlify-cms-backend-git-gateway: ^2.12.2
-    netlify-cms-backend-github: ^2.13.4
-    netlify-cms-backend-gitlab: ^2.11.4
-    netlify-cms-backend-proxy: ^1.2.3
-    netlify-cms-backend-test: ^2.11.3
-    netlify-cms-core: ^2.50.0
-    netlify-cms-editor-component-image: ^2.7.0
-    netlify-cms-lib-auth: ^2.4.2
-    netlify-cms-lib-util: ^2.13.3
-    netlify-cms-lib-widgets: ^1.6.3
-    netlify-cms-locales: ^1.35.0
-    netlify-cms-ui-default: ^2.15.2
-    netlify-cms-widget-boolean: ^2.4.1
-    netlify-cms-widget-code: ^1.3.3
-    netlify-cms-widget-colorstring: ^1.1.1
-    netlify-cms-widget-date: ^2.6.3
-    netlify-cms-widget-datetime: ^2.7.4
-    netlify-cms-widget-file: ^2.11.1
-    netlify-cms-widget-image: ^2.8.1
-    netlify-cms-widget-list: ^2.10.1
-    netlify-cms-widget-map: ^1.5.0
-    netlify-cms-widget-markdown: ^2.14.2
-    netlify-cms-widget-number: ^2.5.0
-    netlify-cms-widget-object: ^2.7.1
-    netlify-cms-widget-relation: ^2.10.4
-    netlify-cms-widget-select: ^2.8.2
-    netlify-cms-widget-string: ^2.3.0
-    netlify-cms-widget-text: ^2.4.1
-    prop-types: ^15.7.2
-    react-immutable-proptypes: ^2.1.0
-    uuid: ^3.3.2
-  peerDependencies:
-    react: ^16.8.4 || ^17.0.0
-    react-dom: ^16.8.4 || ^17.0.0
-  checksum: ab0983391a7be4aeb54c2a6ca7584539df7c5de51b16a12e95a3fc63689c4cf978862a01c4b0fae666debb3d656ab4280e00995a030da3317fb28261499e7794
-  languageName: node
-  linkType: hard
-
 "netlify-cms-app@npm:^2.15.49":
   version: 2.15.49
   resolution: "netlify-cms-app@npm:2.15.49"
@@ -18175,77 +18069,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"netlify-cms-core@npm:^2.50.0":
-  version: 2.50.0
-  resolution: "netlify-cms-core@npm:2.50.0"
-  dependencies:
-    "@iarna/toml": 2.2.5
-    ajv: 8.1.0
-    ajv-errors: ^3.0.0
-    ajv-keywords: ^5.0.0
-    copy-text-to-clipboard: ^3.0.0
-    deepmerge: ^4.2.2
-    diacritics: ^1.3.0
-    fuzzy: ^0.1.1
-    gotrue-js: ^0.9.24
-    gray-matter: ^4.0.2
-    history: ^4.7.2
-    immer: ^9.0.0
-    js-base64: ^3.0.0
-    jwt-decode: ^3.0.0
-    node-polyglot: ^2.3.0
-    prop-types: ^15.7.2
-    react: ^16.8.4
-    react-dnd: ^14.0.0
-    react-dnd-html5-backend: ^14.0.0
-    react-dom: ^16.8.4
-    react-frame-component: ^5.0.0
-    react-hot-loader: ^4.8.0
-    react-immutable-proptypes: ^2.1.0
-    react-is: 16.13.1
-    react-markdown: ^6.0.2
-    react-modal: ^3.8.1
-    react-polyglot: ^0.7.0
-    react-redux: ^7.2.0
-    react-router-dom: ^5.2.0
-    react-scroll-sync: ^0.9.0
-    react-sortable-hoc: ^2.0.0
-    react-split-pane: ^0.1.85
-    react-topbar-progress-indicator: ^4.0.0
-    react-virtualized-auto-sizer: ^1.0.2
-    react-waypoint: ^10.0.0
-    react-window: ^1.8.5
-    redux: ^4.0.5
-    redux-devtools-extension: ^2.13.8
-    redux-notifications: ^4.0.1
-    redux-thunk: ^2.3.0
-    remark-gfm: 1.0.0
-    sanitize-filename: ^1.6.1
-    semaphore: ^1.0.5
-    tomlify-j0.4: ^3.0.0-alpha.0
-    url: ^0.11.0
-    url-join: ^4.0.1
-    what-input: ^5.1.4
-    yaml: ^1.8.3
-  peerDependencies:
-    "@emotion/core": ^10.0.35
-    "@emotion/styled": ^10.0.27
-    immutable: ^3.7.6
-    lodash: ^4.17.11
-    moment: ^2.24.0
-    netlify-cms-editor-component-image: ^2.6.7
-    netlify-cms-lib-auth: ^2.3.0
-    netlify-cms-lib-util: ^2.12.3
-    netlify-cms-lib-widgets: ^1.6.1
-    netlify-cms-ui-default: ^2.12.1
-    prop-types: ^15.7.2
-    react: ^16.8.4 || ^17.0.0
-    react-dom: ^16.8.4 || ^17.0.0
-    react-immutable-proptypes: ^2.1.0
-  checksum: 192b3e49fa22a38bdd4487a78e133cde7c668fc5a8a7d377313a823bf80ff779b77bd0b0aa993b03d71cec7f40f51f7767a6409568f17fc1b9cea393c5291b5f
-  languageName: node
-  linkType: hard
-
 "netlify-cms-core@npm:^2.51.1":
   version: 2.51.1
   resolution: "netlify-cms-core@npm:2.51.1"
@@ -18359,13 +18182,6 @@ __metadata:
     lodash: ^4.17.11
     moment: ^2.24.0
   checksum: 6c8631f5b997785ab83701845ac95cc10d2ddad5028daa4eb772474a72947ce627181f38029e091e9cf8fc5152121c8e5b06a4be537766b72c20a352fae129ae
-  languageName: node
-  linkType: hard
-
-"netlify-cms-locales@npm:^1.35.0":
-  version: 1.35.0
-  resolution: "netlify-cms-locales@npm:1.35.0"
-  checksum: 2dcd8056fc13db45824613f9a9fbcb2a7e65a6562bae82b018c3bb3269fe9cce20f725af8173f276fc4740a04766766c46554f148ab8b6bcac1f3955d926c1de
   languageName: node
   linkType: hard
 
@@ -21539,24 +21355,6 @@ __metadata:
     node-polyglot: ^2.0.0
     react: ">=16.8.0"
   checksum: 5fd61cc6bc74b3a6cda40936551f3dd36beeb0e4f8794da81b954b1d52bde01a91bdec6d03644bd212f6ec480444143e24075cdeae72b52efa01992127f0983a
-  languageName: node
-  linkType: hard
-
-"react-query@npm:^3.23.2":
-  version: 3.23.2
-  resolution: "react-query@npm:3.23.2"
-  dependencies:
-    "@babel/runtime": ^7.5.5
-    broadcast-channel: ^3.4.1
-    match-sorter: ^6.0.2
-  peerDependencies:
-    react: ^16.8.0 || ^17.0.0
-  peerDependenciesMeta:
-    react-dom:
-      optional: true
-    react-native:
-      optional: true
-  checksum: c7c7299dd10b788032353c5e63a2a60f4ab9c6cd7f9adb40bd40614581d3c32cd509b37e5830df0941204b94f2e9b0e17a33b7698df2e1cbaaf8a892c6e11a0a
   languageName: node
   linkType: hard
 

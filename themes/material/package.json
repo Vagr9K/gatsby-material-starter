@@ -50,7 +50,7 @@
     "gatsby-remark-relative-images": "^2.0.2",
     "gatsby-remark-responsive-iframe": "^4.11.0",
     "gatsby-source-filesystem": "^3.14.0",
-    "gatsby-theme-advanced": "^3.3.0",
+    "gatsby-theme-advanced": "^3.4.0",
     "gatsby-transformer-remark": "^4.11.0",
     "gatsby-transformer-sharp": "^3.14.0",
     "is-absolute-url": "^3.0.3",
