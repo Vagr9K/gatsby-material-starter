@@ -27,6 +27,6 @@ describe("page component AboutPage", () => {
 
     const helmet = Helmet.peek();
 
-    expect(helmet.title).toStrictEqual("About | Gatsby Material Starter");
+    expect(helmet.title).toBe("About | Gatsby Material Starter");
   });
 });

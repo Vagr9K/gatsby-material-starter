@@ -59,7 +59,7 @@ describe("page template PostTemplate", () => {
 
     const helmet = Helmet.peek();
 
-    expect(helmet.title).toStrictEqual("Big Test");
+    expect(helmet.title).toBe("Big Test");
   });
 
   it("renders the layout component", async () => {
