@@ -1,7 +1,7 @@
 {
   "name": "gatsby-theme-material",
   "description": "A Material GatsbyJS theme built on top of Material UI V5 and gatsby-theme-advanced.",
-  "version": "3.3.0",
+  "version": "4.0.0",
   "author": "Ruben Harutyunyan <vagr9k@gmail.com> (https://harutyunyan.dev/)",
   "homepage": "https://github.com/Vagr9K/gatsby-material-starter/tree/master/themes/material",
   "bugs": "https://github.com/Vagr9K/gatsby-material-starter/issues",

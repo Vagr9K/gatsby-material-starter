@@ -45,7 +45,7 @@ Visit [`gatsby-theme-material`](https://github.com/Vagr9K/gatsby-material-starte
 
 ## Features
 
-- Gatsby v3 support
+- Gatsby v4 support
 - First class [TypeScript](https://www.typescriptlang.org/) support (for query data and components exposed by the theme)
 - [Material UI V5](https://material-ui.com/) components
 - [Emotion](https://emotion.sh/docs/introduction) used for styling
