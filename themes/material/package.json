@@ -24,7 +24,7 @@
     "date-fns": "^2.25.0",
     "eslint-plugin-graphql": "^4.0.0",
     "gatsby-image": "^3.11.0",
-    "gatsby-plugin-catch-links": "^4.0.0",
+    "gatsby-plugin-catch-links": "^4.2.0",
     "gatsby-plugin-emotion": "^7.0.0",
     "gatsby-plugin-feed": "^4.0.0",
     "gatsby-plugin-google-gtag": "^4.0.0",
