@@ -55,7 +55,7 @@
     "gatsby-transformer-sharp": "^4.0.0",
     "is-absolute-url": "^3.0.3",
     "lodash": "^4.17.21",
-    "moment": "^2.29.1",
+    "moment": "^2.29.2",
     "netlify-cms-app": "^2.15.54",
     "prism-themes": "^1.9.0",
     "prismjs": "^1.25.0",
