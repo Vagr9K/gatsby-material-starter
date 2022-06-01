@@ -52,7 +52,7 @@
     "react-query": "^3.28.0"
   },
   "devDependencies": {
-    "@testing-library/cypress": "^8.0.1",
+    "@testing-library/cypress": "^8.0.2",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^12.1.2",
     "@types/jest": "^27.0.2",
