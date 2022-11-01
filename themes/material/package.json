@@ -80,7 +80,7 @@
     "@emotion/babel-plugin": "^11.3.0",
     "@emotion/jest": "^11.5.0",
     "@testing-library/jest-dom": "^5.14.1",
-    "@testing-library/react": "^12.1.2",
+    "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "@types/babel__plugin-transform-runtime": "^7.9.2",
     "@types/clone-deep": "^4.0.1",
