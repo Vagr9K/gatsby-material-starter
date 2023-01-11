@@ -51,7 +51,7 @@
     "gatsby-remark-responsive-iframe": "^5.0.0",
     "gatsby-source-filesystem": "^4.0.0",
     "gatsby-theme-advanced": "^4.0.0",
-    "gatsby-transformer-remark": "^5.0.0",
+    "gatsby-transformer-remark": "^5.25.1",
     "gatsby-transformer-sharp": "^4.0.0",
     "is-absolute-url": "^3.0.3",
     "lodash": "^4.17.21",
